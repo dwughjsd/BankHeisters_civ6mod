@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_ABYDOS_BRANCH_SCHOOL" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" ReplacesDistrictType="DISTRICT_CAMPUS"/>
+	</DistrictReplaces>
+
+	<Districts>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" Name="LOC_DISTRICT_ABYDOS_BRANCH_SCHOOL_NAME" Description="LOC_DISTRICT_ABYDOS_BRANCH_SCHOOL_DESCRIPTION" PrereqTech="TECH_WRITING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_TECHNOLOGY" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_ABYDOS_BRANCH_SCHOOL" OnePerCity="false"/>
+	</Districts>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="Oasis_Science_AbydosBranchSchool"/>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="Floodplains_Science_AbydosBranchSchool"/>	
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="District_Science"/>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="GBR_Science"/>
+	</District_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		<Row ID="Oasis_Science_AbydosBranchSchool" Description="LOC_DISTRICT_OASIS_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentFeature="FEATURE_OASIS"/>
+		<Row ID="Floodplains_Science_AbydosBranchSchool" Description="LOC_DISTRICT_FLOODPLAINS_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FLOODPLAINS"/>
+	</Adjacency_YieldChanges>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" ModifierId="ABYDOS_BRANCH_SCHOOL_OASIS_FOOD"/>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" ModifierId="ABYDOS_BRANCH_SCHOOL_OASIS_PRODUCTION"/>
+		<!--
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" ModifierId="ABYDOS_BRANCH_SCHOOL_OASIS_GOLD"/>	
+		-->
+	</DistrictModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABYDOS_BRANCH_SCHOOL_OASIS_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

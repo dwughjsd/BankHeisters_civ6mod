@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_ABYDOS_NAME" Language="en_US">
+			<Text>Abydos</Text>
+		</Row>
+		<!--Accoring to the new standard relased by Japanese government, now it's recommended to place family name first. -->
+		<Row Tag="LOC_LEADER_SUNAOOKAMI_SHIROKO_NAME" Language="en_US">
+			<Text>Shiroko</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SUNAOOKAMI_SHIROKO_BANK_JOB_NAME" Language="en_US">
+			<Text>Bank Job</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SUNAOOKAMI_SHIROKO_BANK_JOB_DESCRIPTION" Language="en_US">
+			<Text>Melee, ranged and anti-cavalry units use only 1 [ICON_Movement] Movement point to pillage. May seize [ICON_Gold] Gold from the target's treasury when pillaging. Pillaging districts whose pillage award is [ICON_Gold] Gold provides additional [ICON_Culture] Culture.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_NAME" Language="en_US">
+			<Text>Hoshino (Swimsuit)</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_RESORT_RESTORATION_NAME" Language="en_US">
+			<Text>Resort Restoration</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_RESORT_RESTORATION_DESCRIPTION" Language="en_US">
+			<Text>Oasis and Desert Floodplains tiles grant additional +2 Appeal to adjacent tiles. Gain the Abydos Resort improvement when Games and Recreation civic is discovered.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS_NAME" Language="en_US">
+			<Text>Oasitic Campus</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS_DESCRIPTION" Language="en_US">
+			<Text>Freshwater Desert tiles receive +1 [ICON_Food] Food and +1 [ICON_Production] Production, additional +1 [ICON_Food] Food and +2 [ICON_Gold] Gold if adjacent to a Oasis. Gain 500 [ICON_Gold] Gold and [ICON_Culture] Culture for every Oasis in your territory when Natural History civic is discovered.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_ABYDOS_BRANCH_SCHOOL_NAME" Language="en_US">
+			<Text>Abydos Branch School</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ABYDOS_BRANCH_SCHOOL_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Abydos for scientific endeavors. Replaces the Campus district. May build multiple Abydos Branch School in a city, but its buildings can only be built once in a city. This district does not require population, is cheaper to build, cannot be built adjacent to the city center, does not provide [ICON_GreatPerson] Great People points, and is not a specialty district. Provides +1 [ICON_Food] Food and +1 [ICON_Production] Production on Freshwater Desert tiles.[NEWLINE][NEWLINE]+2 [ICON_Science] Sciense for every adjacent Oasis and +1 [ICON_Science] Science for every 2 adjacent Desert Floodplains.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_NAME" Language="en_US">
+			<Text>Fire Support Drone</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_DESCRIPTION" Language="en_US">
+			<Text>Abydos unique Atomic era unit that replaces Rocket Artillery. Unlocked by Advanced Ballistics. Has stronger [ICON_Bombard] Bombard Strength, larger [ICON_Range] Range and Sight. Doesn't receive bonuses from Observation Balloons and Drones.</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_ABYDOS_RESORT_NAME" Language="en_US">
+			<Text>Abydos Resort</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ABYDOS_RESORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Abydos Resort, unique to Abydos.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture from each Abydos Branch School. +1 [ICON_Culture] Culture for every 2 adjacent Coast or Lake tiles. Provides [ICON_Gold] Gold equal to the tile's Appeal. Provides [ICON_TOURISM] Tourism after researching Flight. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Breathtaking.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

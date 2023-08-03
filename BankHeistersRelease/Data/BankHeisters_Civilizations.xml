@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_ABYDOS" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_ABYDOS_BRANCH_SCHOOL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Kind="KIND_TRAIT"/>
+		<Row Type="MODIFIER_CITY_GRANT_YIELD_PER_FEATURE_TYPE_BANKHEISTERS" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_CITY_GRANT_YIELD_PER_FEATURE_TYPE_BANKHEISTERS</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_GRANT_YIELD_PER_FEATURE_IN_CITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_ABYDOS</CivilizationType>
+			<Name>LOC_CIVILIZATION_ABYDOS_NAME</Name>
+			<Description>LOC_CIVILIZATION_ABYDOS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_ABYDOS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_MEDIT</Ethnicity>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" LeaderType="LEADER_SUNAOOKAMI_SHIROKO" CapitalName="LOC_CITY_NAME_ABYDOS" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" LeaderType="LEADER_TAKANASHI_HOSHINO_SWIMSUIT" CapitalName="LOC_CITY_NAME_ABYDOS" />
+	</CivilizationLeaders>
+	
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_ABYDOS_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_ABYDOS_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_ABYDOS_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_ABYDOS_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+	
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" TraitType="TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" TraitType="TRAIT_CIVILIZATION_DISTRICT_ABYDOS_BRANCH_SCHOOL" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" TraitType="TRAIT_CIVILIZATION_UNIT_ABYDOS_FIRE_SUPPORT_DRONE" />
+	</CivilizationTraits>
+	
+	<CityNames>
+		<InsertOrIgnore CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_ABYDOS" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SUNAOMACHI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SHIROMORI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_YOTSUBA" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SHINKIRO" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KITAYAMA" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_HACHI_RIDGE" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KISHU_MOUNTAIN" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_AKITA_VALLEY" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SIESTA" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_PARROT_FALLS" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_AOBA" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KURONEKO" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_FUTABA" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SHIROMON" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SHIBA" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KUROYAGI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KURUNAGI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_AMETAKO" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_TSUKITEN" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SAZANAMI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_NOGAKUCHO" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KAWAMINAMI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KAMIMORI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_KAWANISHI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_WADI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_HOKUROKU" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_SHINSETSU" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_BIYORI" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CityName="LOC_CITY_NAME_NOMYOGIRI" />
+	</CityNames>
+	
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_1" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_2" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_3" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_4" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_5" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_6" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_7" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_8" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_9" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MALE_10" />
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" CitizenName="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS" Name="LOC_TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS_NAME" Description="LOC_TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_ABYDOS_BRANCH_SCHOOL" />
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_ABYDOS_FIRE_SUPPORT_DRONE" />
+	</Traits>
+	
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS</TraitType>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS</TraitType>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS</TraitType>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD_OASIS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS</TraitType>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_GOLD_OASIS</ModifierId>
+		</Row>
+	</TraitModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD_OASIS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_OASIS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_GOLD_OASIS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_OASIS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CIVIC_GRANT_ABYDOS_GOLD_PER_OASIS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>ABYDOS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CIVIC_GRANT_ABYDOS_CULTURE_PER_OASIS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>ABYDOS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_GOLD_PER_OASIS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_GRANT_YIELD_PER_FEATURE_TYPE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_CULTURE_PER_OASIS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_GRANT_YIELD_PER_FEATURE_TYPE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD_OASIS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_FOOD_OASIS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_GOLD_OASIS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASITIC_CAMPUS_FRESHWATER_DESERT_GOLD_OASIS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_GOLD_PER_OASIS_MODIFIER</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_OASIS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_GOLD_PER_OASIS_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_GOLD_PER_OASIS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>500</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_CULTURE_PER_OASIS_MODIFIER</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_OASIS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_CULTURE_PER_OASIS_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANT_ABYDOS_CULTURE_PER_OASIS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>500</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVIC_GRANT_ABYDOS_GOLD_PER_OASIS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GRANT_ABYDOS_GOLD_PER_OASIS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CIVIC_GRANT_ABYDOS_CULTURE_PER_OASIS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GRANT_ABYDOS_CULTURE_PER_OASIS_MODIFIER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_OASIS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_NEAR_OASIS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row RequirementSetId="ABYDOS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER_BANKHEISTERS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS_FULFILLED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_OASIS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER_BANKHEISTERS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_OASIS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS_FULFILLED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_FRESHWATER_DESERT_OASIS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OASITIC_CAMPUS_NEAR_OASIS_REQUIREMENTS_FULFILLED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OASITIC_CAMPUS_NEAR_OASIS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OASIS_BANKHEISTERS</RequirementId>
+		</Row>
+		<Row RequirementSetId="ABYDOS_REQUIREMENTS" RequirementId="PLAYER_IS_ABYDOS"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER_BANKHEISTERS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_FRESH_WATER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS_FULFILLED</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>OASITIC_CAMPUS_NEAR_OASIS_REQUIREMENTS_FULFILLED</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OASIS_BANKHEISTERS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row RequirementId="PLAYER_IS_ABYDOS" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="PLAYER_IS_ABYDOS" Name="CivilizationType" Value="CIVILIZATION_ABYDOS"/>
+		<Row>
+			<RequirementId>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS_FULFILLED</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>OASITIC_CAMPUS_DESERT_PLOT_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>OASITIC_CAMPUS_NEAR_OASIS_REQUIREMENTS_FULFILLED</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>OASITIC_CAMPUS_NEAR_OASIS_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OASIS_BANKHEISTERS</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_OASIS</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" FeatureType="FEATURE_OASIS" Tier="1"/>
+	</StartBiasFeatures>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" TerrainType="TERRAIN_DESERT" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
+	</StartBiasTerrains>
+	
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_NATURAL_HISTORY</CivicType>
+			<ModifierId>CIVIC_GRANT_ABYDOS_GOLD_PER_OASIS</ModifierId>
+		</Row>
+		<Row>
+			<CivicType>CIVIC_NATURAL_HISTORY</CivicType>
+			<ModifierId>CIVIC_GRANT_ABYDOS_CULTURE_PER_OASIS</ModifierId>
+		</Row>
+	</CivicModifiers>
+
+	<CivilizationAudioTags>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" MusicOverride="true"/>
+	</CivilizationAudioTags>
+</GameData>

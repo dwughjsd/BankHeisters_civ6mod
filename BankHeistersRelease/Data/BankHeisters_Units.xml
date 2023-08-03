@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="ABILITY_LEADER_BANK_JOB" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Kind="KIND_UNIT"/>
+	</Types>
+
+	<Tags>
+
+	</Tags>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="ABILITY_LEADER_BANK_JOB" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_LEADER_BANK_JOB" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_LEADER_BANK_JOB" Tag="CLASS_RANGED"/>
+		<!--
+		<Row Type="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Tag="CLASS_RANGED"/>
+		-->
+		<Row Type="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Tag="CLASS_SIEGE_SETUP"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_LEADER_BANK_JOB" Description="LOC_ABILITY_LEADER_BANK_JOB_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Inactive="true"/>
+	</UnitAbilities>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" ReplacesUnitType="UNIT_ROCKET_ARTILLERY"/>
+	</UnitReplaces>
+
+	<Units>
+		<Row UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Cost="680" Maintenance="8" BaseMoves="3" BaseSightRange="5" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="70" Bombard="105" Range="4" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_NAME" Description="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ADVANCED_BALLISTICS" TraitType="TRAIT_CIVILIZATION_UNIT_ABYDOS_FIRE_SUPPORT_DRONE"/>
+	</Units>
+
+	<UnitUpgrades>
+	</UnitUpgrades>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_BANK_JOB</UnitAbilityType>
+			<ModifierId>UNIT_REDUCED_PILLAGE_COST</ModifierId>
+		</Row>
+		<!--
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_BANK_JOB</UnitAbilityType>
+			<ModifierId>ABILITY_LEADER_BANK_JOB_DISTRICT_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB</UnitAbilityType>
+			<ModifierId>ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB_BONUS</ModifierId>
+		</Row>
+		-->
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>ABILITY_LEADER_BANK_JOB_DISTRICT_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BANK_JOB_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BANK_JOB_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ABILITY_LEADER_BANK_JOB_DISTRICT_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="ABILITY_LEADER_BANK_JOB_DISTRICT_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_LEADER_BANK_JOB_DISTRICT_COMBAT_BONUS"/>
+		<Row ModifierId="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB_BONUS" Context="Preview" Text="LOC_ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB_BONUS"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>BANK_JOB_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>BANK_JOB_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ATTACKER_IS_OCCUPYING_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	<Requirements>
+	</Requirements>
+</GameData>

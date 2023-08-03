@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_ABYDOS_NAME" Language="zh_Hans_CN">
+			<Text>阿拜多斯</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUNAOOKAMI_SHIROKO_NAME" Language="zh_Hans_CN">
+			<Text>白子</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SUNAOOKAMI_SHIROKO_BANK_JOB_NAME" Language="zh_Hans_CN">
+			<Text>银行差事</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SUNAOOKAMI_SHIROKO_BANK_JOB_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>近战、远程和抗骑兵单位掠夺只消耗1 [ICON_Movement] 移动力。发起掠夺时可从目标的国库中夺取 [ICON_Gold] 金币。在掠夺奖励为 [ICON_Gold] 金币的区域发起掠夺时获得 [ICON_Culture] 文化值。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_NAME" Language="zh_Hans_CN">
+			<Text>星野（泳装）</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_RESORT_RESTORATION_NAME" Language="zh_Hans_CN">
+			<Text>度假区复兴</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_RESORT_RESTORATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>绿洲和沙漠泛滥平原为相邻单元格额外+2魅力。解锁“游戏和娱乐”市政后可获得“阿拜多斯度假区”改良设施。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS_NAME" Language="zh_Hans_CN">
+			<Text>绿洲学园</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABYDOS_OASITIC_CAMPUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>淡水沙漠单元格提供+1 [ICON_Food] 食物、+1 [ICON_Production] 生产力，若单元格与绿洲相邻额外+1 [ICON_Food] 食物、+2 [ICON_Gold] 金币。获得“自然历史”市政时，帝国中每拥有1处绿洲，便获得500 [ICON_Gold] 金币与 [ICON_Culture] 文化值。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_ABYDOS_BRANCH_SCHOOL_NAME" Language="zh_Hans_CN">
+			<Text>阿拜多斯分校</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_ABYDOS_BRANCH_SCHOOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿拜多斯特色科技区域，替代学院。可在一座城市中建造多个，但建筑在城市中只能建造一个。此区域不需要人口，不提供 [ICON_GreatPerson] 伟人点数，也不属于专业化区域。位于淡水沙漠单元格时提供+1 [ICON_Food] 食物和+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]每与1个绿洲相邻，则+2 [ICON_Science] 科技值。每与2个沙漠泛滥平原相邻，则+1 [ICON_Science] 科技值。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_NAME" Language="zh_Hans_CN">
+			<Text>火力支援无人机</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>阿拜多斯原子时代特色单位，取代火箭炮。由“高级弹道学”科技解锁。[ICON_Bombard] 轰炸攻击力强, [ICON_Range] 射程和视野范围更远，但不会获得观测气球和无人机提供的加成。</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_ABYDOS_RESORT_NAME" Language="zh_Hans_CN">
+			<Text>阿拜多斯度假区</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ABYDOS_RESORT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造阿拜多斯特色改良设施阿拜多斯度假区的能力。[NEWLINE][NEWLINE]每个相邻的阿拜多斯分校使其 +1 [ICON_Culture] 文化值。每2个相邻的海岸与湖泊单元格使其 +1 [ICON_Culture] 文化值。提供等同于所在单元格魅力的 [ICON_Gold] 金币。研究完“飞行”后额外提供 [ICON_TOURISM] 旅游业绩。必须建在与海岸相邻的沙漠、平原或草原单元格上。所在单元格魅力必须达到惊艳以上。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

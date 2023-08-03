@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--
+	<Types>
+		<Row Type="PROJECT_ABYDOS_DESERT_FESTIVAL" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_ABYDOS_DESERT_FESTIVAL" Name="LOC_PROJECT_ABYDOS_DESERT_FESTIVAL_NAME" ShortName="LOC_PROJECT_ABYDOS_DESERT_FESTIVAL_SHORT_NAME" Description="LOC_PROJECT_ABYDOS_DESERT_FESTIVAL_DESCRIPTION" PrereqDistrict="DISTRICT_CAMPUS" Cost="65" AdvisorType="ADVISOR_CULTURE" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" UnlocksFromEffect="true"/>
+	</Projects>
+-->
+</GameData>

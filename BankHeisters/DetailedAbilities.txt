@@ -1,0 +1,55 @@
+For who wants a detailed description of these leader instead of a first-look-style text:
+
+Abydos - Oasitic Campus
+
+Freshwater Desert tiles receive +1 Food and +1 Production, additional +1 Food and +2 Gold if adjacent to a Oasis. Gain 500 Gold and Culture for every Oasis in your territory when Natural History civic is discovered.
+
+Unique District - Abydos Branch School
+
+A district unique to Abydos for scientific endeavors. Replaces the Campus district. May build multiple Abydos Branch School in a city, but its buildings can only be built once in a city. This district does not require population, is cheaper to build, cannot be built adjacent to the city center, does not provide Great People points, and is not a specialty district. Provides +1 Food and +1 Production on Freshwater Desert tiles.
++2 Sciense for every adjacent Oasis and +1 Science for every 2 adjacent Desert Floodplains.
+
+Unique Unit - Fire Support Drone
+
+Abydos unique Atomic era unit that replaces Rocket Artillery. Unlocked by Advanced Ballistics. Has stronger Bombard Strength, larger Range and Sight. Doesn't receive bonuses from Observation Balloons and Drones.
+
+Shiroko - Bank Job
+
+Melee, ranged and anti-cavalry units use only 1 Movement point to pillage. May seize Gold from the target's treasury when pillaging. Pillaging districts whose pillage award is Gold provides additional Culture.
+
+Hoshino (Swimsuit) - Resort Restoration
+
+Oasis and Desert Floodplains tiles grant additional +2 Appeal to adjacent tiles. Gain the Abydos Resort improvement when Games and Recreation civic is discovered.
+
+Hoshino (Swimsuit)'s Unique Improvement - Abydos Resort
+
+Unlocks the Builder ability to construct a Abydos Resort, unique to Abydos.
++1 Culture from each Abydos Branch School. +1 Culture for every 2 adjacent Coast or Lake tiles. Provides Gold equal to the tile's Appeal. Provides Tourism after researching Flight. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Breathtaking.
+
+提供给更喜欢直接看详细的能力说明的玩家：
+
+阿拜多斯 - 绿洲学园
+
+淡水沙漠单元格提供+1食物、+1生产力，若单元格与绿洲相邻额外+1食物、+2金币。获得“自然历史”市政时，帝国中每拥有1处绿洲，便获得500金币与文化值。
+
+特色区域 - 阿拜多斯分校
+
+阿拜多斯特色科技区域，替代学院。可在一座城市中建造多个，但建筑在城市中只能建造一个。此区域不需要人口，不提供伟人点数，也不属于专业化区域。位于淡水沙漠单元格时提供+1食物和+1生产力。
+每与1个绿洲相邻，则+2科技值。每与2个沙漠泛滥平原相邻，则+1科技值。
+
+特色单位 - 火力支援无人机
+
+阿拜多斯原子时代特色单位，取代火箭炮。由“高级弹道学”科技解锁。轰炸攻击力强,射程和视野范围更远，但不会获得观测气球和无人机提供的加成。
+
+白子 - 银行差事
+
+近战、远程和抗骑兵单位掠夺只消耗1移动力。发起掠夺时可从目标的国库中夺取金币。在掠夺奖励为金币的区域发起掠夺时获得文化值。
+
+星野（泳装） - 度假区复兴
+
+绿洲和沙漠泛滥平原为相邻单元格额外+2魅力。解锁“游戏和娱乐”市政后可获得“阿拜多斯度假区”改良设施。
+
+星野（泳装）的特色改良 - 阿拜多斯度假区
+
+解锁建造者建造阿拜多斯特色改良设施阿拜多斯度假区的能力。
+每个相邻的阿拜多斯分校使其+1文化值。每2个相邻的海岸与湖泊单元格使其+1文化值。提供等同于所在单元格魅力的金币。研究完“飞行”后额外提供旅游业绩。必须建在与海岸相邻的沙漠、平原或草原单元格上。所在单元格魅力必须达到惊艳以上。

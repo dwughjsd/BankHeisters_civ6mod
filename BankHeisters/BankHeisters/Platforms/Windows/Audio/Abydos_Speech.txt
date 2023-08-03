@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	103096784	ABDO_SS_DECLARE_WAR_A			\Default Work Unit\Speech\ABDO_SS_DECLARE_WAR_A	
+	582602030	ABDO_TH_DECLARE_WAR_A			\Default Work Unit\Speech\ABDO_TH_DECLARE_WAR_A	
+	800249975	ABDO_SS_KUDOS_A			\Default Work Unit\Speech\ABDO_SS_KUDOS_A	
+	1238350060	ABDO_TH_DEFEAT_A			\Default Work Unit\Speech\ABDO_TH_DEFEAT_A	
+	1844254761	ABDO_TH_FIRST_MEET_A			\Default Work Unit\Speech\ABDO_TH_FIRST_MEET_A	
+	1923519931	ABDO_SS_FIRST_MEET_A			\Default Work Unit\Speech\ABDO_SS_FIRST_MEET_A	
+	1972018606	ABDO_SS_MISC_PEP_TALK_A			\Default Work Unit\Speech\ABDO_SS_MISC_PEP_TALK_A	
+	2056662603	ABDO_TH_SWIMSUIT_WARNING_A			\Default Work Unit\Speech\ABDO_TH_SWIMSUIT_WARNING_A	
+	2111550428	ABDO_SS_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\ABDO_SS_DECLARE_WAR_FROM_AI_A	
+	2898986802	ABDO_SS_DEFEAT_A			\Default Work Unit\Speech\ABDO_SS_DEFEAT_A	
+	3232795126	ABDO_TH_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\ABDO_TH_DECLARE_WAR_FROM_AI_A	
+	3613697392	ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A			\Default Work Unit\Speech\ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A	
+	3615480649	ABDO_TH_SWIMSUIT_KUDOS_A			\Default Work Unit\Speech\ABDO_TH_SWIMSUIT_KUDOS_A	
+	4022081969	ABDO_SS_WARNING_A			\Default Work Unit\Speech\ABDO_SS_WARNING_A	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	181258435	ABDO_TH_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_TH_DEFEAT_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_TH_DEFEAT_A		153028
+	215937841	ABDO_SS_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_SS_DECLARE_WAR_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_SS_DECLARE_WAR_A		92944
+	296739437	ABDO_TH_SWIMSUIT_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_TH_SWIMSUIT_KUDOS_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_TH_SWIMSUIT_KUDOS_A		246268
+	381837471	ABDO_SS_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_SS_KUDOS_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_SS_KUDOS_A		95932
+	434174466	ABDO_SS_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_SS_MISC_PEP_TALK_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_SS_MISC_PEP_TALK_A		79732
+	455432253	ABDO_TH_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_TH_DECLARE_WAR_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_TH_DECLARE_WAR_A		95248
+	530456079	ABDO_TH_SWIMSUIT_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_TH_SWIMSUIT_WARNING_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_TH_SWIMSUIT_WARNING_A		224272
+	540909711	ABDO_SS_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_SS_DECLARE_WAR_FROM_AI_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_SS_DECLARE_WAR_FROM_AI_A		131068
+	548020282	ABDO_SS_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_SS_WARNING_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_SS_WARNING_A		69508
+	721351419	ABDO_SS_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_SS_DEFEAT_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_SS_DEFEAT_A		66340
+	742234000	ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A		178516
+	771702031	ABDO_TH_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_TH_DECLARE_WAR_FROM_AI_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_TH_DECLARE_WAR_FROM_AI_A		127396
+	845598507	ABDO_TH_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_TH_FIRST_MEET_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_TH_FIRST_MEET_A		173296
+	1039896319	ABDO_SS_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\ABDO_SS_FIRST_MEET_A_838899FF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\AbydosSpeech_01\ABDO_SS_FIRST_MEET_A		186292
+

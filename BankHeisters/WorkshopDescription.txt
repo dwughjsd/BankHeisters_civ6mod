@@ -1,0 +1,118 @@
+[h1]↑我们需要更多的好评才能让这个作品留在大家眼前，因此请先按下点赞按钮！[/h1]
+
+此mod需要风云变幻资料片才能运行。
+
+[h1]支持语言：简体中文、英语[/h1]
+
+[h1]白子与星野（泳装）领导的阿拜多斯：先睹为快[/h1]
+
+戴好面罩，准备武器，从敌人手中夺取金钱！本文明包中包含了两位来自《蔚蓝档案》游戏中的角色，她们是阿拜多斯高中的同学，曾经一起抢过银行，现在也一起在《文明6》中登场。
+
+[b]阿拜多斯[/b]曾是一座繁荣的学校，随着气候变化却逐渐衰亡。如今，在它最后的学生的领导下，正在努力恢复往日的荣光。作为[b]绿洲学园[/b]，阿拜多斯从淡水沙漠和绿洲单元格中获得额外的生产力、食物和金币。在研发完成自然历史市政时，他们还将从国境内的绿洲中立即获得金币和文化值。他们的特色区域是[b]阿拜多斯分校[/b]，替代学院区域。阿拜多斯分校在一座城市中可以多次建设，且造价更加便宜。在城市内建造多个，便可获得与区域相邻产生的相邻加成，不过它们更加适合建设在绿洲和沙漠泛滥平原旁。
+
+阿拜多斯的特色单位是[b]火力支援无人机[/b]。这种替代火箭炮的单位更早解锁，并且获得了无人机带来的额外战斗力、射程和视野范围。不过，它不会再受到无人机的加成。
+
+身为对策委员会的行动队长，[b]白子[/b]的领袖特性是[b]银行差事[/b]。他们的单位善于劫掠，不仅在掠夺时花费更少的行动力，更可以从敌方的国库中取得金钱！如果掠夺区域能够获得金币，他们还将同时获得文化。
+
+与之不同的是，[b]星野（泳装）[/b]更喜欢轻松地赢得文化胜利。她的领袖特性[b]度假区复兴[/b]使得绿洲和沙漠泛滥平原为相邻单元格额外+2魅力，并可以解锁特色改良设施[b]阿拜多斯度假区[/b]。这种建设在海滨的改良设施能够提供额外的文化，并在研究飞行科技之后成为文化胜利的动力之一。
+
+身为联邦搜查社团“沙勒”（也译“夏莱”）的老师，您将如何带领阿拜多斯走上复兴之路？您将会如何重建一个文明，令其经得起时间的考验？
+
+[b]能力详情请参阅讨论贴。[/b]
+
+[h1]模组特性：[/h1]
+
+[b]强力而不超模。[/b]每位领袖的能力均鼓励一种独特的游玩方式，并在设计时充分考虑了领袖的能力强度，使其拥有充分的竞争力但并不显著过强。
+
+[b]忠于原作。[/b]本作品在制作过程中进行了精细的考证，包括人名、地名、城市名称和外交用语，以尽最大可能表现原作的风土人情和领袖性格特征。
+
+[b]和谐风格。[/b]所有已制作的美术素材均参照《文明6》游戏的规格进行处理，确保其在各个界面正确显示且整洁清爽。
+
+[b]背景音乐与领袖语音。[/b]原作游戏中的白子和星野的语音不多，但我们仍然设法找到了合适的台词。
+
+[h1]已知问题：[/h1]
+
+【官方背锅】音乐播放有时会存在问题，具体表现与官方的越南和葡萄牙文明相同。
+
+由于我们近期正在进行更大的项目，所以测试就得交给大家了！我们将会在合适的时候公开这个新作品（目前它无法兼容我们的旧作）。
+
+[h1]需要帮助：[/h1]
+
+（1）领袖动画
+（2）重新编曲的音乐
+（3）更多语言的本地化
+（4）图标和时代得分美术
+
+[h1]向大家介绍 Shimamura et al.[/h1]
+
+Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是 UzukiShimamura卯月 与小伙伴们的合作团队——我们由一群富有经验的文明6mod制作者组成，目标是成为二次元领袖的设计基线。当然，如果你能做得更好，那就快加入我们！
+
+[b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]：为设计方案提供平衡性调整。
+[b][url=steamcommunity.com/profiles/76561198348087348]夕墨岚[/url][/b]：制作了时代得分绘画的蒙版。
+[b]支持我的朋友们[/b]：推动本作品登上工坊！
+
+本模组使用了来自手机游戏《蔚蓝档案》（也被叫做“碧蓝档案”，或是简称“BA”）的素材。模组作者并不拥有素材的所有权。
+
+需要mod制作支持，或者发现了什么问题吗？请在Steam私信，或加入QQ群“圣特蕾莎文明mod学园”（519747236）联系我。
+
+在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上可以查看我所有作品的工程文件。给我Star或者提出Pull Request就更好了！
+
+
+[h1]↑ We need more positive rates to let this mod be known, so PLEAAAAAAASE click the thumbs up button![/h1]
+
+You need Gathering Storm to use this mod.
+
+[h1]Supported language: Simplified Chinese, English[/h1]
+
+[h1]Shiroko and Hoshino (Swimsuit) lead Abydos: First Look[/h1]
+
+Wear your masks and gear up with your weapons, it's time to rob some gold! This civilization pack contains 2 characters from Blue Archive. They are students of Abydos High School, robbed a bank together, and come to Civilization VI together.
+
+[b]Abydos[/b] was once a school with prosperity but declined due to climate change. Now under the leadership of its last students, it is struggling to rise up again. As an [b]Oasitic Campus[/b], Abydos gain additional Production, Food and Gold from Freshwater Desert and Oasis tiles. They also receive Gold and Culture from each Oasis tile in their territory when they unlock Natural History civic. Their unique district is [b]Abydos Branch School[/b] which replaces Campus. The Abydos Branch School can be built multiple times in a city, and is cheaper. Build multiple Abydos Branch School and they can gain adjacency bonuses from adjacent districts, while it will be better if they are placed near Oasis or Desert Floodplains tiles.
+
+The unique unit of Abydos is [b]Fire Support Drone[/b] which replaces Rocket Artillery and unlocks earlier. Is has enhanced Range and Sight and is stronger, but won't receive bonuses from Drones.
+
+[b]Shiroko[/b], the field captain of Countermeasure Committee, has [b]Bank Job[/b] leader ability. Their units are adept at pillaging, cost less Movement to pillage, and can even seize Gold from enemy treasury! If pillaging a district can reward them with Gold, they can receive Culture at the same time.
+
+Different from Shiroko, [b]Hoshino (Swimsuit)[/b] prefer to win a Culture Victory effortlessly. Her leader ability [b]Resort Restoration[/b] grants additional Appeal to Oasis and Desert Floodplains, and unlocks unique improvement [b]Abydos Resort[/b], which must be built in coastal tiles, provide additional Culture, and can become a boost to Culture Victory with Flight technology.
+
+Being the Sensei of Independent Federal Investigation Club S.C.H.A.L.E., how will you lead Abydos to a restoration? How will you rebuild a civilization, and let it stand the test of time?
+
+[b]For detailed ability description, see discussions.[/b]
+
+[h1]Mod Highlights:[/h1]
+
+[b]"Powered" without "Over"[/b]: Each leader has several abilities that promote a unique play-style. This mod is designed to make abilities of all leaders included competent but not overpowered.
+
+[b]Lore-Loyalty[/b]: This mod is made with a fine research of the original game, and provides full lists of named places, citizen names, city names and diplomacy statements to better represent lore and leader characteristics.
+
+[b]Harmonized Mix[/b]: All art assets included in this mod are processed to fit the need of Civilization VI, so that they can display correctly and neatly.
+
+[b]Background Music and Leader Speeches[/b]: Shiroko and Hoshino don't have many voice clips, but we still found appropriate lines.
+
+[h1]Known issues:[/h1]
+
+[FIRAXIS-SIDE ISSUE] Music playback can be sometimes glitchy, with the same issues of some official civilizations like Vietnam and Portugal.
+
+We are working on a larger project so the testing is somewhat inadequate and need your reports! The new project will be made public when it is appropriate (it doesn't support our previous works well for now)  
+
+[h1]Help needed:[/h1]
+
+(1)Leader animations
+(2)Recomposed music
+(3)More localization (text)
+(4)Icons and historical moment assets
+
+[h1]Introducing Shimamura et al.[/h1]
+
+Shimamura et al. (literally means "Shimamura and other people") is the team of UzukiShimamura and his friends, a group of experienced modders aiming at becoming the baseline of anime leader mods. And of course, JOIN US if you can do better than us!
+
+[b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]: Made balancing adjustments for the design.
+[b][url=steamcommunity.com/profiles/76561198348087348]Xi Mo Lan[/url][/b]: Made templates for Historical Moments illustration.
+[b]All friends that support me[/b]: Advocated this mod to be released on Workshop!
+
+This mod uses assets from the mobile game Blue Archive. The author of this mod DOES NOT own these assets.
+
+Need modding support, or found some issues? PM me on Steam or join QQ group 519747236 to contact me.
+
+View project files of all my work on [url=github.com/dwughjsd]GitHub[/url]. It would be much appreciated if you can be my Stargazer or come up with some Pull Requests!

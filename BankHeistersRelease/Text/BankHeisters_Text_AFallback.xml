@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_ABYDOS_DESCRIPTION" Language="en_US">
+			<Text>Abydos Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ABYDOS_ADJECTIVE" Language="en_US">
+			<Text>Abydos</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUNAOOKAMI_SHIROKO_TITLE" Language="en_US">
+			<Text>Sunaookami Shiroko</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SUNAOMACHI" Language="en_US">
+			<Text>Sunaomachi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHIROMORI" Language="en_US">
+			<Text>Shiromori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YOTSUBA" Language="en_US">
+			<Text>Yotsuba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHINKIRO" Language="en_US">
+			<Text>Shinkiro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KITAYAMA" Language="en_US">
+			<Text>Kitayama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HACHI_RIDGE" Language="en_US">
+			<Text>Hachi Ridge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KISHU_MOUNTAIN" Language="en_US">
+			<Text>Kishu Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKITA_VALLEY" Language="en_US">
+			<Text>Akita Valley</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIESTA" Language="en_US">
+			<Text>Siesta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PARROT_FALLS" Language="en_US">
+			<Text>Parrot Falls</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AOBA" Language="en_US">
+			<Text>Aoba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KURONEKO" Language="en_US">
+			<Text>Kuroneko</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUTABA" Language="en_US">
+			<Text>Futaba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHIROMON" Language="en_US">
+			<Text>Shiromon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHIBA" Language="en_US">
+			<Text>Shiba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KUROYAGI" Language="en_US">
+			<Text>Kuroyagi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KURUNAGI" Language="en_US">
+			<Text>Kurunagi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMETAKO" Language="en_US">
+			<Text>Ametako</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TSUKITEN" Language="en_US">
+			<Text>Tsukiten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAZANAMI" Language="en_US">
+			<Text>Sazanami</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NOGAKUCHO" Language="en_US">
+			<Text>Nogakucho</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAWAMINAMI" Language="en_US">
+			<Text>Kawaminami</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAMIMORI" Language="en_US">
+			<Text>Kamimori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAWANISHI" Language="en_US">
+			<Text>Kawanishi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WADI" Language="en_US">
+			<Text>Wadi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HOKUROKU" Language="en_US">
+			<Text>Hokuroku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHINSETSU" Language="en_US">
+			<Text>Shinsetsu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BIYORI" Language="en_US">
+			<Text>Biyori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NOMYOGIRI" Language="en_US">
+			<Text>Nomyogiri</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_TAMAGAWA_RIVER_NAME" Language="en_US">
+			<Text>Tamagawa River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_NISHIGAWA_RIVER_NAME" Language="en_US">
+			<Text>Nishigawa River</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_SUNAOOKAMI_SHIROKO" Language="en_US">
+			<Text>Shiroko, you are the hot wind from Abydos deserts, a jackal of the oasitic school. You sweep across battlefields and plunder all your enemies have, despite their futile defense. You will make good use of these treasures, as they once belonged to your people and must be secured to benefit your people. Your army and equipments are prepared. Do no hesitate, and take actions as soon as possible.</Text>
+		</Row>
+
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_BANK_HEISTER_NAME" Language="en_US">
+			<Text>Bank Heister</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_BANK_HEISTER_DESCRIPTION" Language="en_US">
+			<Text>Always tries to keep a large standing army. Sympathizes with civilization with low income. Does not like high income civilizations.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_BANK_HEISTER_LOW_INCOME" Language="en_US">
+			<Text>Shiroko is sympathetic to your financial difficulties</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_BANK_HEISTER_HIGH_INCOME" Language="en_US">
+			<Text>Shiroko plans to pillage rich civilizations</Text>
+		</Row>
+
+		<!--Leader Civilopedia entries-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUNAOOKAMI_SHIROKO_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Shiroko will not spare any means to revive Abydos, and one of their favorite way is to pillage for more [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUNAOOKAMI_SHIROKO_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Earn guns when your neighbors earn money, and they will be your gold reserves when you are in need. The primary method to earn [ICON_Gold] Gold for Abydos under Shiroko's leadership is not constructing buildings or improvements, but pillaging their enemies. When plundering enemies, their units cost less [ICON_Movement] Movement and can even receive addition [ICON_Culture] Culture. Use trophies from pillaging to build a larger army, and use Fire Support Drones to break city defenses, and winning a Conquest Victory will be easy for them.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUNAOOKAMI_SHIROKO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SUNAOOKAMI_SHIROKO_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!--Civ	Civilopedia entries-->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ABYDOS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ABYDOS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_ABYDOS_BRANCH_SCHOOL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_ABYDOS_RESORT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_SUNAOOKAMI_SHIROKO_QUOTE" Language="en_US">
+			<Text>It is good to see bustle cities.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Hmm... (They accepted your friendship.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>I have no choice but to reject.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>I can always find new things to learn when I am with you, and I would like to declare our friendship like never before.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>I am not feeling particularly bad for this...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>So I think it is time to check my guns.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>What a wide place. Suitable for some "exercises".</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>We have been waiting them for long. Thank you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>We commissioners are busy recently and have no time to receive your delegation.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Our delegation comes for helping you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>... You will argue against us, no matter what we do.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>You are even more corrupt than what I thought of. (Denounces You.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>I'm Sunaookami Shiroko, a Grade 2 student from Abydos Countermeasures Committee. Nice to meet you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Welcome to our city nearby. What about riding bikes with us?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>There is a climbing route near Abydos, you can ride a bicycle for a whole night and see sunrise there. Would you introduce your capital to us? Is it a good place for cycling?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>It is fine to just keep peace together.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>It should be this way... I mean a bank.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SUNAOOKAMI_SHIROKO_ANY"
+			Language="en_US">
+			<Text>Ah, I saw your army at my borders. So what do you want, taking them away or fighting against us?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Am I... lack of strength...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Good. I agree.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>So there is only one way left to make the deal... "That" way.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>What do you need me to do?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>I still want a lot, but have to let them be.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Futile.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>I have a clear view of tactics and strategies for this war. You still have a chance if you are not willing to keep resistence uselessly.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Just tell me if you need us.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Be vigilant so that we can avoid troubles. A simple principle.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SUNAOOKAMI_SHIROKO_ANY" Language="en_US">
+			<Text>Our troops want to go on a bicycle trip across your territory. What they take are simply necessaries for a trip...</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Hoshino wants to build Abydos Resorts unique improvement to restore tourism of Abydos.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Abydos thrives on Deserts and Oases. Their cities adapt to developing in desert area and gain additional [ICON_Gold] Gold and [ICON_Culture] Culture with Natural History civic. Hoshino needs to annex Oasis tiles into their territory, not only for building unique Abydos Resort but also for extra [ICON_Science] Science from Abydos Branch School to research Flight. By doing so they can seize a Culture Victory effortlessly.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_TAKANASHI_HOSHINO_SWIMSUIT" Language="en_US">
+			<Text>Hoshino, the living Horus, protector of Abydos. You were dedicated to revenge, but your people know you are also an expert of reconstructing a civilization. Trust your allies, crush approching enemies, and you will not disappoint anyone.</Text>
+		</Row>
+
+		<!--Agenda-->
+		<Row Tag="LOC_AGENDA_SEASIDE_RELAXATION_NAME" Language="en_US">
+			<Text>Seaside Relaxation</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SEASIDE_RELAXATION_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations with most [ICON_Tourism] Tourism, dislikes civilizations incompetent on [ICON_Tourism] Tourism.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_SEASIDE_RELAXATION_HIGH_TOURISM" Language="en_US">
+			<Text>Hoshino loves your tourist attactions</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_SEASIDE_RELAXATION_LOW_TOURISM" Language="en_US">
+			<Text>Hoshino is disappointed by your dull territory</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_QUOTE" Language="en_US">
+			<Text>Wow, I cannot help it... This place is a real paradise...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Haha, I am flattered.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Can I really accept a friendship? I do not think it is a groundless fear...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Friendship should not be my business. But if you are willing to accept mine... It will be my pleasure.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Woah, hmm, well... Thank you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Don't be serious, don't be serious.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Wow, a job comes! I have to make it done.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Woah, what a trouble. I have no choice but to deal with it.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>OK, I'd better spend more time on them.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Well, well. How about next time?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>We have sent you a delegation. What gifts do you want? Anything they can gift is OK.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Take it easy. It is important to take things easy.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>So is that how you work? You must be kidding me, aren't you? (Denounces You.)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Woah - let us make the first meet easy. After all, relaxation is crucial.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>We have a city nearby and welcome! As for me, will it be fine if I have a rest there?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Wow, seems good.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Could you introduce your capital? If so I will also try hard to tell you mine.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Cool shades, comfortable see breeze... What a great dreamy wonderland...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>So, where can you lie down? Where is the place for you to relax?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY"
+			Language="en_US">
+			<Text>I feel you army at my borders troublesome. I do not fear a war, though.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>I am defeated. I didn't mean to lose...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Haha, a good deal, isn't it?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Take it easy, take it easy...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>What will happen this time?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Well, I'd rather make things easy.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>What do you mean?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>So I have struggled a lot. So do you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Simply tell me if you are in need.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Well, well. Better next time?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY" Language="en_US">
+			<Text>Just like what happened before, I have some troubles to deal with... Please allow my troops cross through your territory, will you?</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_1" Language="en_US">
+			<Text>Mutsuki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_2" Language="en_US">
+			<Text>Tsubaki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_3" Language="en_US">
+			<Text>Haruka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_4" Language="en_US">
+			<Text>Asuna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_5" Language="en_US">
+			<Text>Reisa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_6" Language="en_US">
+			<Text>Iori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_7" Language="en_US">
+			<Text>Chise</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_8" Language="en_US">
+			<Text>Yoshimi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_9" Language="en_US">
+			<Text>Airi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MALE_10" Language="en_US">
+			<Text>Pina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_1" Language="en_US">
+			<Text>Kotama</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_2" Language="en_US">
+			<Text>Nonomi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_3" Language="en_US">
+			<Text>Yuuka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_4" Language="en_US">
+			<Text>Hina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_5" Language="en_US">
+			<Text>Junko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_6" Language="en_US">
+			<Text>Fuuka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_7" Language="en_US">
+			<Text>Eimi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_8" Language="en_US">
+			<Text>Hifumi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_9" Language="en_US">
+			<Text>Ayane</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_MALE_10" Language="en_US">
+			<Text>Maki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_1" Language="en_US">
+			<Text>Juri</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_2" Language="en_US">
+			<Text>Neru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_3" Language="en_US">
+			<Text>Utaha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_4" Language="en_US">
+			<Text>Akane</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_5" Language="en_US">
+			<Text>Tsurugi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_6" Language="en_US">
+			<Text>Haruna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_7" Language="en_US">
+			<Text>Hare</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_8" Language="en_US">
+			<Text>Kayoko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_9" Language="en_US">
+			<Text>Saya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_FEMALE_10" Language="en_US">
+			<Text>Akari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_1" Language="en_US">
+			<Text>Hanae</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_2" Language="en_US">
+			<Text>Hibiki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_3" Language="en_US">
+			<Text>Sumire</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_4" Language="en_US">
+			<Text>Kotori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_5" Language="en_US">
+			<Text>Serina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_6" Language="en_US">
+			<Text>Kaho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_7" Language="en_US">
+			<Text>Karin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_8" Language="en_US">
+			<Text>Aru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_9" Language="en_US">
+			<Text>Chinatsu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ABYDOS_MODERN_FEMALE_10" Language="en_US">
+			<Text>Izumi</Text>
+		</Row>
+
+		<!--Civ Info-->
+		<Row Tag="LOC_CIVINFO_ABYDOS_LOCATION" Language="en_US">
+			<Text>Kivotos</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_ABYDOS_SIZE" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_ABYDOS_POPULATION" Language="en_US">
+			<Text>Tens of thousands at peak, only 5 recently</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_ABYDOS_CAPITAL" Language="en_US">
+			<Text>Abydos</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_DISTRICT_OASIS_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Oasis tiles.</Text>
+		</InsertOrIgnore>
+
+		<InsertOrIgnore Tag="LOC_DISTRICT_FLOODPLAINS_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Floodplains tiles.</Text>
+		</InsertOrIgnore>
+
+		<InsertOrIgnore Tag="LOC_DISTRICT_FLOODPLAINS_SCIENCE_XP2" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Desert Floodplains tiles.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Grassland Floodplains tiles.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_DISTRICT_FLOODPLAINS_PLAINS_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Plains Floodplains tiles.</Text>
+		</InsertOrIgnore>
+
+		<Row Tag="LOC_ABILITY_LEADER_BANK_JOB_DESCRIPTION" Language="en_US">
+			<Text>Pillaging costs only 1 [ICON_Movement] Movement point.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

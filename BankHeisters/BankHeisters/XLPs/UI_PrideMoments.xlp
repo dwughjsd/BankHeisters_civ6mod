@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/PrideMoments"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_Abydos"/>
+			<m_ObjectName text="Moment_Infrastructure_Abydos"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_Abydos_Resort"/>
+			<m_ObjectName text="Moment_Infrastructure_Abydos_Resort"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_Abydos_FireSupportDrone"/>
+			<m_ObjectName text="Moment_FirstAirUnitLateGame"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="LeaderSpeech_Yuni" ID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="id88602518" ID="{F76D226B-E8A1-4BB3-BE3A-90CCD40A5614}" ShortID="88602518">
+					<PropertyList>
+						<Property Name="DivergenceCenter" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="LeaderSpeech" ID="{DD9801A4-ECD4-4536-AEC3-24C4630BB45F}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Speech Bus" ID="{EE6F9EC0-28C3-430E-B0F5-A9DE4CB5D006}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="id854467727" ID="{DC6A8588-A87C-4BBB-82CB-4FC9D666EAB9}" ShortID="854467727">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="id424381547" ID="{E0C18500-9AAB-481C-84FF-BB380CDE99B5}" ShortID="424381547">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="AbydosSpeech_01" ID="{F340A029-5E98-4D2D-B5C1-77434DEBB35D}" ShortID="31096736">
+											<PropertyList>
+												<Property Name="DivergenceCenter" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="ABDO_SS_DECLARE_WAR_A" ID="{CD79C4EE-2208-48D2-AE2A-58481C268A55}" ShortID="151163633" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_SS_DECLARE_WAR_A" ID="{DED08D16-E950-4528-B3E9-2654257CD6FA}" ShortID="805090458">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_SS_DECLARE_WAR_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="215937841"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_SS_DECLARE_WAR_A" ID="{DED08D16-E950-4528-B3E9-2654257CD6FA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_SS_KUDOS_A" ID="{694AD20A-CA15-4CDC-BE36-362CE0691953}" ShortID="763414893" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_SS_KUDOS_A" ID="{4232C741-F181-4311-ADD7-572FD909F2FD}" ShortID="389837078">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_SS_KUDOS_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="381837471"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_SS_KUDOS_A" ID="{4232C741-F181-4311-ADD7-572FD909F2FD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_SS_WARNING_A" ID="{177DA6F5-DB41-4DE6-B023-34FC49C97F6C}" ShortID="536087499" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_SS_WARNING_A" ID="{7447E9D5-8249-408A-89D7-E022EFC23058}" ShortID="420895213">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_SS_WARNING_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="548020282"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_SS_WARNING_A" ID="{7447E9D5-8249-408A-89D7-E022EFC23058}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_SS_MISC_PEP_TALK_A" ID="{0EA64C49-073F-4030-92A1-F08BBD44246C}" ShortID="936968849" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_SS_MISC_PEP_TALK_A" ID="{974D369C-98F9-466E-A53F-4453C4DB1E45}" ShortID="732123509">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_SS_MISC_PEP_TALK_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="434174466"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_SS_MISC_PEP_TALK_A" ID="{974D369C-98F9-466E-A53F-4453C4DB1E45}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_TH_FIRST_MEET_A" ID="{BE4758D4-8DF2-4E2E-B385-395108E926C2}" ShortID="644425195" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_TH_FIRST_MEET_A" ID="{2EDE5A0F-AF3B-4585-9CB7-2344F43C4DDE}" ShortID="1069988627">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_TH_FIRST_MEET_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="845598507"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_TH_FIRST_MEET_A" ID="{2EDE5A0F-AF3B-4585-9CB7-2344F43C4DDE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_TH_SWIMSUIT_WARNING_A" ID="{133B6544-0F7D-4AC5-B640-5C1C1FD1A48E}" ShortID="443198368" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_TH_SWIMSUIT_WARNING_A" ID="{CA7CDD93-C1A1-4D9F-BC2D-764049B0275F}" ShortID="521439906">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_TH_SWIMSUIT_WARNING_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="530456079"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_TH_SWIMSUIT_WARNING_A" ID="{CA7CDD93-C1A1-4D9F-BC2D-764049B0275F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_TH_DEFEAT_A" ID="{3A7D58E4-5C60-4688-914A-0D0B83925AA6}" ShortID="13891772" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_TH_DEFEAT_A" ID="{5AA789CE-65B6-4A05-B248-3FBB82258FDB}" ShortID="134365566">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_TH_DEFEAT_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="181258435"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_TH_DEFEAT_A" ID="{5AA789CE-65B6-4A05-B248-3FBB82258FDB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_SS_DEFEAT_A" ID="{7BD58A5C-0ADF-4451-9790-58E5F9684A2A}" ShortID="106658347" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_SS_DEFEAT_A" ID="{CA41F859-C64E-4336-982C-DE0821EA6520}" ShortID="746639669">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_SS_DEFEAT_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="721351419"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_SS_DEFEAT_A" ID="{CA41F859-C64E-4336-982C-DE0821EA6520}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_TH_DECLARE_WAR_A" ID="{57057F2D-33C8-42BB-BB44-FC35CDC1CEDE}" ShortID="955911637" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_TH_DECLARE_WAR_A" ID="{B8BAC017-2D19-42A5-948E-3B46737377CB}" ShortID="317135793">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_TH_DECLARE_WAR_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="455432253"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_TH_DECLARE_WAR_A" ID="{B8BAC017-2D19-42A5-948E-3B46737377CB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_TH_SWIMSUIT_KUDOS_A" ID="{F825ADF6-F21A-47D2-B5FA-AFA2493C3727}" ShortID="342008952" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_TH_SWIMSUIT_KUDOS_A" ID="{9535684C-84A2-4405-BFA2-910C062B89C7}" ShortID="852841280">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_TH_SWIMSUIT_KUDOS_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="296739437"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_TH_SWIMSUIT_KUDOS_A" ID="{9535684C-84A2-4405-BFA2-910C062B89C7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_TH_DECLARE_WAR_FROM_AI_A" ID="{782D621D-8087-4FC3-889E-05B555FE9066}" ShortID="77462783" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_TH_DECLARE_WAR_FROM_AI_A" ID="{8D741F9F-953C-4D19-B7FE-95D75BDDC9C3}" ShortID="1072772457">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_TH_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="771702031"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_TH_DECLARE_WAR_FROM_AI_A" ID="{8D741F9F-953C-4D19-B7FE-95D75BDDC9C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A" ID="{D010572F-1CF7-4EEE-97D1-184F22FBD45B}" ShortID="502034342" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A" ID="{48A4B502-84B0-4609-922B-DE70AC88A018}" ShortID="352670868">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="742234000"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A" ID="{48A4B502-84B0-4609-922B-DE70AC88A018}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_SS_FIRST_MEET_A" ID="{178F155C-DE65-45C8-B9EF-1798CC49CA0F}" ShortID="285100536" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_SS_FIRST_MEET_A" ID="{38E64533-7D90-4D5D-97CF-351BD2C0AD54}" ShortID="691791978">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_SS_FIRST_MEET_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1039896319"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_SS_FIRST_MEET_A" ID="{38E64533-7D90-4D5D-97CF-351BD2C0AD54}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="ABDO_SS_DECLARE_WAR_FROM_AI_A" ID="{1A1050BF-D5B8-46A8-BF9D-728AB39428CF}" ShortID="456065939" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="ABDO_SS_DECLARE_WAR_FROM_AI_A" ID="{20544A76-0571-4402-9330-D2DC5D1F19E7}" ShortID="223094319">
+															<Language>SFX</Language>
+															<AudioFile>ABDO_SS_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="540909711"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="ABDO_SS_DECLARE_WAR_FROM_AI_A" ID="{20544A76-0571-4402-9330-D2DC5D1F19E7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

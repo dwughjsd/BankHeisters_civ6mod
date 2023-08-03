@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_SUNAOOKAMI_SHIROKO" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_BANK_JOB" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_BANK_HEISTER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_IMPROVEMENT_ABYDOS_RESORT" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_TAKANASHI_HOSHINO_SWIMSUIT" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_RESORT_RESTORATION" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_SEASIDE_RELAXATION" Kind="KIND_TRAIT"/>
+		<Row Type="MODIFIER_PLAYER_ALLOW_PROJECT_BANKHEISTERS" Kind="KIND_MODIFIER"/>
+	</Types>
+	
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_SUNAOOKAMI_SHIROKO</LeaderType>
+			<Name>LOC_LEADER_SUNAOOKAMI_SHIROKO_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_TAKANASHI_HOSHINO_SWIMSUIT</LeaderType>
+			<Name>LOC_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+		</Row>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SUNAOOKAMI_SHIROKO" TraitType="TRAIT_LEADER_BANK_JOB"/>
+		<Row LeaderType="LEADER_TAKANASHI_HOSHINO_SWIMSUIT" TraitType="TRAIT_LEADER_IMPROVEMENT_ABYDOS_RESORT"/>
+		<Row LeaderType="LEADER_TAKANASHI_HOSHINO_SWIMSUIT" TraitType="TRAIT_LEADER_RESORT_RESTORATION"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_BANK_JOB" Name="LOC_TRAIT_LEADER_SUNAOOKAMI_SHIROKO_BANK_JOB_NAME" Description="LOC_TRAIT_LEADER_SUNAOOKAMI_SHIROKO_BANK_JOB_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_BANK_HEISTER"/>
+		<Row TraitType="TRAIT_LEADER_RESORT_RESTORATION" Name="LOC_TRAIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_RESORT_RESTORATION_NAME" Description="LOC_TRAIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_RESORT_RESTORATION_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_SEASIDE_RELAXATION"/>
+		<Row TraitType="TRAIT_LEADER_IMPROVEMENT_ABYDOS_RESORT"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_BANK_JOB</TraitType>
+			<ModifierId>TRAIT_GRANT_UNIT_ABILITY_BANK_JOB</ModifierId>
+		</Row>
+		<!--<Row>
+			<TraitType>TRAIT_LEADER_BANK_JOB</TraitType>
+			<ModifierId>TRAIT_GRANT_UNIT_ABILITY_BANK_JOB_COMMERCIAL_HUB</ModifierId>
+		</Row>-->
+		<Row>
+			<TraitType>TRAIT_LEADER_RESORT_RESTORATION</TraitType>
+			<ModifierId>TRAIT_RESORT_RESTORATION_OASIS_EXTRA_APPEAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_RESORT_RESTORATION</TraitType>
+			<ModifierId>TRAIT_RESORT_RESTORATION_FLOODPLAINS_EXTRA_APPEAL</ModifierId>
+		</Row>
+		<!--
+		<Row>
+			<TraitType>TRAIT_LEADER_RESORT_RESTORATION</TraitType>
+			<ModifierId>TRAIT_RESORT_RESTORATION_ALLOW_DESERT_FESTIVAL</ModifierId>
+		</Row>
+		-->
+		<Row TraitType="TRAIT_AGENDA_BANK_HEISTER" ModifierId="AGENDA_BANK_HEISTER_LOW_INCOME"/>
+		<Row TraitType="TRAIT_AGENDA_BANK_HEISTER" ModifierId="AGENDA_BANK_HEISTER_HIGH_INCOME"/>
+		<Row TraitType="TRAIT_AGENDA_SEASIDE_RELAXATION" ModifierId="AGENDA_SEASIDE_RELAXATION_HIGH_TOURISM"/>
+		<Row TraitType="TRAIT_AGENDA_SEASIDE_RELAXATION" ModifierId="AGENDA_SEASIDE_RELAXATION_LOW_TOURISM"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_GRANT_UNIT_ABILITY_BANK_JOB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_UNIT_ABILITY_BANK_JOB_COMMERCIAL_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COMMERCIAL_HUB_BANKHEISTERS</SubjectRequirementSetId>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_OASIS_EXTRA_APPEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_FLOODPLAINS_EXTRA_APPEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+		</Row>
+		<!--<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_ALLOW_DESERT_FESTIVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_BANKHEISTERS</ModifierType>
+		</Row>-->
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_LOW_INCOME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_INCOME</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_HIGH_INCOME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_INCOME</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_HIGH_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_TOURISM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_LOW_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_TOURISM</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_BANKHEISTERS</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_GRANT_UNIT_ABILITY_BANK_JOB</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_BANK_JOB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_UNIT_ABILITY_BANK_JOB_COMMERCIAL_HUB</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_OASIS_EXTRA_APPEAL</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_OASIS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_OASIS_EXTRA_APPEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_FLOODPLAINS_EXTRA_APPEAL</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FLOODPLAINS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_FLOODPLAINS_EXTRA_APPEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--
+		<Row>
+			<ModifierId>TRAIT_RESORT_RESTORATION_ALLOW_DESERT_FESTIVAL</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_ABYDOS_DESERT_FESTIVAL</Value>
+		</Row>
+		-->
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_LOW_INCOME</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_LOW_INCOME</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_SUNAOOKAMI_SHIROKO_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_LOW_INCOME</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_BANK_HEISTER_LOW_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_HIGH_INCOME</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_HIGH_INCOME</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_SUNAOOKAMI_SHIROKO_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BANK_HEISTER_HIGH_INCOME</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_BANK_HEISTER_HIGH_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_HIGH_TOURISM</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_HIGH_TOURISM</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_HIGH_TOURISM</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_SEASIDE_RELAXATION_HIGH_TOURISM</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_LOW_TOURISM</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_LOW_TOURISM</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SEASIDE_RELAXATION_LOW_TOURISM</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_SEASIDE_RELAXATION_LOW_TOURISM</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_BANK_HEISTER_LOW_INCOME" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_BANK_HEISTER_HIGH_INCOME" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_SEASIDE_RELAXATION_HIGH_TOURISM" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_SEASIDE_RELAXATION_LOW_TOURISM" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<AiListTypes>
+		<Row ListType="SunaookamiShirokoTechs"/>
+		<Row ListType="SunaookamiShirokoCivics"/>
+		<Row ListType="SunaookamiShirokoWonders"/>
+		<Row ListType="TakanishiHoshinoSwimsuitCivics"/>
+		<Row ListType="TakanishiHoshinoSwimsuitPseudoYields"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="SunaookamiShirokoTechs" LeaderType="TRAIT_LEADER_BANK_JOB" System="Technologies"/>
+		<Row ListType="SunaookamiShirokoWonders" LeaderType="TRAIT_LEADER_BANK_JOB" System="Buildings"/>
+		<Row ListType="SunaookamiShirokoCivics" LeaderType="TRAIT_LEADER_BANK_JOB" System="Civics"/>
+		<Row ListType="StandingArmyPseudoYields" LeaderType="TRAIT_LEADER_BANK_JOB" System="PseudoYields"/>
+		<Row ListType="TakanishiHoshinoSwimsuitCivics" LeaderType="TRAIT_LEADER_RESORT_RESTORATION" System="Civics"/>
+		<Row ListType="TakanishiHoshinoSwimsuitPseudoYields" LeaderType="TRAIT_LEADER_RESORT_RESTORATION" System="PseudoYields"/>
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="SunaookamiShirokoTechs" Item="TECH_THE_WHEEL" Favored="true"/>
+		<Row ListType="SunaookamiShirokoTechs" Item="TECH_CURRENCY" Favored="true"/>
+		<Row ListType="SunaookamiShirokoTechs" Item="TECH_BANKING" Favored="true"/>
+		<Row ListType="SunaookamiShirokoCivics" Item="CIVIC_MOBILIZATION" Favored="true"/>
+		<Row ListType="SunaookamiShirokoCivics" Item="CIVIC_PROFESSIONAL_SPORTS" Favored="true"/>
+		<Row ListType="SunaookamiShirokoCivics" Item="CIVIC_RAPID_DEPLOYMENT" Favored="true"/>
+		<Row ListType="SunaookamiShirokoWonders" Item="BUILDING_PETRA" Favored="true"/>
+		<Row ListType="SunaookamiShirokoWonders" Item="BUILDING_GREAT_ZIMBABWE" Favored="true"/>
+		<Row ListType="SunaookamiShirokoWonders" Item="BUILDING_BIG_BEN" Favored="true"/>
+		<Row ListType="TakanishiHoshinoSwimsuitCivics" Item="CIVIC_CIVIC_GAMES_RECREATION" Favored="true"/>
+		<Row ListType="TakanishiHoshinoSwimsuitPseudoYields" Item="PSEUDOYIELD_TOURISM" Value="20"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_BANK_HEISTER" Name="LOC_AGENDA_BANK_HEISTER_NAME" Description="LOC_AGENDA_BANK_HEISTER_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_SEASIDE_RELAXATION" Name="LOC_AGENDA_SEASIDE_RELAXATION_NAME" Description="LOC_AGENDA_SEASIDE_RELAXATION_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_SUNAOOKAMI_SHIROKO" AgendaType="AGENDA_BANK_HEISTER"/>
+		<Row LeaderType="LEADER_TAKANASHI_HOSHINO_SWIMSUIT" AgendaType="AGENDA_SEASIDE_RELAXATION"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_BANK_HEISTER" TraitType="TRAIT_AGENDA_BANK_HEISTER"/>
+		<Row AgendaType="AGENDA_SEASIDE_RELAXATION" TraitType="TRAIT_AGENDA_SEASIDE_RELAXATION"/>
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_BANK_HEISTER" AgendaTwo="AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaOne="AGENDA_BANK_HEISTER" AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_SEASIDE_RELAXATION" AgendaTwo="AGENDA_DESTINATION_CIV"/>
+	</ExclusiveAgendas>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SUNAOOKAMI_SHIROKO" Quote="LOC_LEADER_SUNAOOKAMI_SHIROKO_QUOTE" QuoteAudio="ABDO_SS_MISC_PEP_TALK_A"/>
+		<Row LeaderType="LEADER_TAKANASHI_HOSHINO_SWIMSUIT" Quote="LOC_LEADER_TAKANASHI_HOSHINO_SWIMSUIT_QUOTE" QuoteAudio="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A"/>
+	</LeaderQuotes>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_COMMERCIAL_HUB_BANKHEISTERS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_COMMERCIAL_HUB_BANKHEISTERS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_COMMERCIAL_HUB</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameData>

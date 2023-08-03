@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko256"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko32"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko45"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko48"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko50"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko55"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko64"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderSunaookamiShiroko80"/>
+			<m_ObjectName text="LeaderSunaookamiShiroko80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit256"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit32"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit45"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit48"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit50"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit55"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit64"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderTanashiHoshinoSwimsuit80"/>
+			<m_ObjectName text="LeaderTanashiHoshinoSwimsuit80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos128"/>
+			<m_ObjectName text="Abydos128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos22"/>
+			<m_ObjectName text="Abydos22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos256"/>
+			<m_ObjectName text="Abydos256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos30"/>
+			<m_ObjectName text="Abydos30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos32"/>
+			<m_ObjectName text="Abydos32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos36"/>
+			<m_ObjectName text="Abydos36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos44"/>
+			<m_ObjectName text="Abydos44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos45"/>
+			<m_ObjectName text="Abydos45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos48"/>
+			<m_ObjectName text="Abydos48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos50"/>
+			<m_ObjectName text="Abydos50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos64"/>
+			<m_ObjectName text="Abydos64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Abydos80"/>
+			<m_ObjectName text="Abydos80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

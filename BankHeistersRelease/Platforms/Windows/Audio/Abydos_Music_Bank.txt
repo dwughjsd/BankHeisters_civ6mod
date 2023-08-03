@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	24017546	Stop_Leader_Music_ABYDOS			\Default Work Unit\Music\Stop_Leader_Music_ABYDOS	
+	537657558	Start_Music_ABYDOS			\Default Work Unit\Music\Start_Music_ABYDOS	
+	1001787700	Stop_Music_ABYDOS			\Default Work Unit\Music\Stop_Music_ABYDOS	
+	1273124808	Play_Leader_Music_ABYDOS			\Default Work Unit\Music\Play_Leader_Music_ABYDOS	
+	2659932619	Resume_Music_ABYDOS			\Default Work Unit\Music\Resume_Music_ABYDOS	
+	2720786606	Play_Music_ABYDOS			\Default Work Unit\Music\Play_Music_ABYDOS	
+	3766774668	Pause_Music_ABYDOS			\Default Work Unit\Music\Pause_Music_ABYDOS	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	27001946	02_ Midsummer cat	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\02. Midsummer cat_5E5FEB08.wem	27001946.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\CivilizationMusic_Abydos\AbydosCiv_Ancient\02_ Midsummer cat\02_ Midsummer cat	
+	46843525	Abydos_Ancient	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\Abydos_Ancient_5E5FEB08.wem	46843525.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\ThemeMusic_Abydos\AbydosAncient\Abydos_Ancient	
+	62934778	02_ Romantic Smile	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\02. Romantic Smile_5E5FEB08.wem	62934778.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\CivilizationMusic_Abydos\AbydosCiv_Ancient\02_ Romantic Smile\02_ Romantic Smile	
+	529311734	05_ Step by Step	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\05. Step by Step_5E5FEB08.wem	529311734.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\CivilizationMusic_Abydos\AbydosCiv_Ancient\05_ Step by Step\05_ Step by Step	
+	571248463	Abydos_Modern	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\Abydos_Modern_5E5FEB08.wem	571248463.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\ThemeMusic_Abydos\AbydosIndustrial\Abydos_Modern	
+	578068155	Aoharu	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\Aoharu_5E5FEB08.wem	578068155.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\CivilizationMusic_Abydos\AbydosCiv_Ancient\Aoharu\Aoharu	
+	762733230	08_ Daily Routine 247	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\08. Daily Routine 247_5E5FEB08.wem	762733230.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\CivilizationMusic_Abydos\AbydosCiv_Ancient\08_ Daily Routine 247\08_ Daily Routine 247	
+	990266512	13_ Signal of Abydos	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\13. Signal of Abydos_5E5FEB08.wem	990266512.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\CivilizationMusic_Abydos\AbydosCiv_Ancient\13_ Signal of Abydos\13_ Signal of Abydos	
+	1069728462	09_ Future Bossa	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\SFX\09. Future Bossa_5E5FEB08.wem	1069728462.wem	\Interactive Music Hierarchy\AbydosBackgroundMusic\CivilizationMusic_Abydos\AbydosCiv_Ancient\09_ Future Bossa\09_ Future Bossa	
+

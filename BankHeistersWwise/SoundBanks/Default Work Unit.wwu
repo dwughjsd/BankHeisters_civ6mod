@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Abydos_Music_Bank" ID="{4E226DE0-E3C6-49B7-894C-DF55A643EFC3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="id658623902_DO_NOT_TOUCH" ID="{26984207-93E3-44FE-982A-510A9615FD4A}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="2" Origin="Manual"/>
+						<ObjectRef Name="Pause_Music_ABYDOS" ID="{F507FA15-440E-43E8-925A-37EDE1A7AC49}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Start_Music_ABYDOS" ID="{99277C1C-8BF2-4D85-AFED-70271E813DB4}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Leader_Music_ABYDOS" ID="{BBEFAA25-0AFC-4AE2-BCE0-DE8F8C8DFB0C}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LeaderMusic_Abydos" ID="{E464AA28-DE1B-421A-B746-471A08772C63}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Leader_Music_ABYDOS" ID="{8ED9932B-6431-4EB5-8865-5A071C35B4E5}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Resume_Music_ABYDOS" ID="{BA328DB1-5981-455D-B278-2BDC1A6E9020}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_ABYDOS" ID="{FFD6A3C0-0843-409E-A16D-8B193FCC47BA}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_ABYDOS" ID="{E419A1EA-5859-42C7-B608-21B4CB1D769C}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Abydos_Speech" ID="{5C5CA03B-7850-4D9D-B8BA-751E30C3F3B1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ABDO_SS_KUDOS_A" ID="{694AD20A-CA15-4CDC-BE36-362CE0691953}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_TH_DECLARE_WAR_FROM_AI_A" ID="{782D621D-8087-4FC3-889E-05B555FE9066}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AbydosSpeech_01" ID="{F340A029-5E98-4D2D-B5C1-77434DEBB35D}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_TH_DECLARE_WAR_A" ID="{57057F2D-33C8-42BB-BB44-FC35CDC1CEDE}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A" ID="{D010572F-1CF7-4EEE-97D1-184F22FBD45B}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_TH_SWIMSUIT_WARNING_A" ID="{133B6544-0F7D-4AC5-B640-5C1C1FD1A48E}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_SS_MISC_PEP_TALK_A" ID="{0EA64C49-073F-4030-92A1-F08BBD44246C}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_SS_FIRST_MEET_A" ID="{178F155C-DE65-45C8-B9EF-1798CC49CA0F}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_SS_DEFEAT_A" ID="{7BD58A5C-0ADF-4451-9790-58E5F9684A2A}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_SS_DECLARE_WAR_FROM_AI_A" ID="{1A1050BF-D5B8-46A8-BF9D-728AB39428CF}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_TH_FIRST_MEET_A" ID="{BE4758D4-8DF2-4E2E-B385-395108E926C2}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_TH_DEFEAT_A" ID="{3A7D58E4-5C60-4688-914A-0D0B83925AA6}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_SS_DECLARE_WAR_A" ID="{CD79C4EE-2208-48D2-AE2A-58481C268A55}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_SS_WARNING_A" ID="{177DA6F5-DB41-4DE6-B023-34FC49C97F6C}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ABDO_TH_SWIMSUIT_KUDOS_A" ID="{F825ADF6-F21A-47D2-B5FA-AFA2493C3727}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

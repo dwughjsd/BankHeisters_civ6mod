@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_ABYDOS_BRANCH_SCHOOL" Texture="Moment_Infrastructure_Abydos"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_ABYDOS_RESORT" Texture="Moment_Infrastructure_Abydos_Resort"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Texture="Moment_UniqueUnit_Abydos_FireSupportDrone"/>
+	</MomentIllustrations>
+	
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="Government_Science"/>
+	</District_Adjacencies>
+</GameData>

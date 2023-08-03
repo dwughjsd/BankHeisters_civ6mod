@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{0C7A6099-743A-4645-A32E-6D31D45C6805}" ShortID="72871508">
+					<ChildrenList>
+						<Event Name="Stop_Music_ABYDOS" ID="{FFD6A3C0-0843-409E-A16D-8B193FCC47BA}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{CCCBA1F8-B138-451E-80C3-E6370E7BE52F}" ShortID="768197295" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4A37F7E1-3F6F-4088-9CF6-B3D5311A0BA3}" Global="false">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{FF171BCE-2D29-49B0-8ACA-98CD051256D2}" ShortID="792974311" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{86765EFC-4432-496A-8B70-DC5C73EF681E}" Global="false">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{1B2105E5-9BB0-4CC7-8388-16616723F361}" ShortID="862916179" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{C0B8B70F-164A-45C3-ABE2-7EC31969B719}" Global="false">
+											<ObjectRef Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{2A02F89F-52D9-4BAB-B2FC-8CFA5BC83C59}" ShortID="638135431" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{BE8D223C-1159-4057-A102-08B190D2B628}" Global="false">
+											<ObjectRef Name="LeaderMusic_Abydos" ID="{E464AA28-DE1B-421A-B746-471A08772C63}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{C9770A13-30A7-441A-B00D-17A6D0C73FA1}" ShortID="575269692" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{D566203C-65D7-4EB8-85B7-4AC93BE6FB00}" Global="false">
+											<ObjectRef Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Music_ABYDOS" ID="{F507FA15-440E-43E8-925A-37EDE1A7AC49}">
+							<ChildrenList>
+								<Action Name="Pause" ID="{43945E32-E0B1-4FB6-B563-F580AEB1336C}" ShortID="76550035" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{76F68D8C-402C-4775-AA03-DE8EB8C865A8}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{0EED93AF-20E2-4E15-AC9D-1A36582E335C}" ShortID="1001117529" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{7C9C5DA3-2EE2-469F-8EAF-E7B5DED76CF9}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{0475FC5D-7BED-44C6-8099-ECA3D55F3C5A}" ShortID="1014563569" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{7E9D6D49-7DEF-459B-A4E7-78CAB8CFF5CE}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{9F4E5D25-35B8-4F10-9D37-E196AC4542EA}" ShortID="12703800" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{11AA20F0-54BB-441A-984E-1942C94F2003}" Global="true">
+											<ObjectRef Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{D6A0DF3E-676C-450D-8606-03A6AF1E73EE}" ShortID="1024580623" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{88C6DF3F-E435-47F5-AA6D-7EDA9321BDA3}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Start_Music_ABYDOS" ID="{99277C1C-8BF2-4D85-AFED-70271E813DB4}">
+							<ChildrenList>
+								<Action Name="Play" ID="{31BC44A0-ED20-4C74-84A3-6381EEDD6DFD}" ShortID="669527512" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{3F758286-8F6C-40D8-B595-EC57E189D2CD}" Global="false">
+											<ObjectRef Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_ABYDOS" ID="{E419A1EA-5859-42C7-B608-21B4CB1D769C}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{59C16E3C-147A-4ED6-AFAB-090399DB8088}" ShortID="387039907" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{36C5D203-AEC5-4DE5-BD55-690515CD5526}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{04ABEA48-2667-4AE5-B706-98E0A5278323}" ShortID="981104205" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{ACCF8BF8-465F-47C3-8368-8383A91FA529}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{836C2369-28E0-4CFA-8059-8DF3ECB4A50A}" ShortID="539624662" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3D530251-608D-44E1-864B-980C97F38104}" Global="false">
+											<ObjectRef Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{677F53D8-569E-468D-B704-714DD71E076E}" ShortID="812044244" Type="Stop" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{F4A832D8-2914-4EC7-8885-B74FBB3DF578}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Leader_Music_ABYDOS" ID="{8ED9932B-6431-4EB5-8865-5A071C35B4E5}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{116D7001-EBF2-467E-A783-D59B8B65BA68}" ShortID="416141324" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{54298082-19EC-41A3-8D4B-A1BE67429416}" Global="true">
+											<ObjectRef Name="LeaderMusic_Abydos" ID="{E464AA28-DE1B-421A-B746-471A08772C63}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{72EE8799-44F2-42E1-97A2-4F82AB27263C}" ShortID="788085980" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DAE79EF4-11EC-496D-ADE8-DB8C6369910A}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{AE15D165-270B-4573-9253-746AC51A79FC}" ShortID="614121084" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{7DE17259-8316-43BC-A45E-15D90964D515}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{91853AD1-7F4B-48D8-9345-EF93805A23C6}" ShortID="818378729" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{10EEC79D-C442-4C1F-90BB-4C18AC490A97}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{EB8D0D79-DEE6-400D-B890-FAB299F2A585}" ShortID="993315351" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{22E0CB66-A1EE-494C-B357-5D102CF30742}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{BFA81F80-E98B-4088-9D77-0EFA437A9C45}" ShortID="548102893" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{274A091C-25DA-46FD-B111-D02216B4F153}" Global="true">
+											<ObjectRef Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Leader_Music_ABYDOS" ID="{BBEFAA25-0AFC-4AE2-BCE0-DE8F8C8DFB0C}">
+							<ChildrenList>
+								<Action Name="Play" ID="{3F4FB4F6-F7C1-480B-AF2A-0D96F667255A}" ShortID="705794695" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5B9D86B3-36B5-4959-9419-B0C21F2F03E0}" Global="false">
+											<ObjectRef Name="LeaderMusic_Abydos" ID="{E464AA28-DE1B-421A-B746-471A08772C63}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{C47EF47C-9A57-4911-97B9-487533C289E1}" ShortID="194512038" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{192310A0-979C-4CDC-A682-534C4DD4CEF2}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{D01CAA11-7DBD-4920-B337-CB79C2CA2413}" ShortID="52828233" Type="Pause" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{4096A470-C0C3-4B67-986E-EF89BF3B0E45}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{B9CB97E7-BD33-4A2C-A486-732C936D2F4C}" ShortID="704767923" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{940ADE59-FE3B-4595-978A-35527E4B882D}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{F4E6EE62-F2A0-44DC-901A-0E7852F99889}" ShortID="696666084" Type="Pause" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6EF39FBA-7EF8-41CB-8FF2-7085411A44C1}" Global="false">
+											<ObjectRef Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Pause" ID="{23EAAA4A-82AF-431F-A94A-C32E6D11EE41}" ShortID="983971562" Type="Pause" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{E1244A5B-BB1F-478F-BC9C-16A01C2B2A1C}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{739688D2-403C-4E70-8490-16DCB3F61E9B}" ShortID="714694766" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{39982C2E-F678-4A16-ABD7-6D02F4BF6E82}" Global="true">
+											<ObjectRef Name="id554830605" ID="{EB516F78-AB70-4167-9471-637D43192CED}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{6D20F6BC-ACB2-4A39-8F65-AACE1B3AE324}" ShortID="356727389" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{CB88AFD0-41E1-4D2A-8AC6-D4FB81FEFF87}" Global="true">
+											<ObjectRef Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Music_ABYDOS" ID="{BA328DB1-5981-455D-B278-2BDC1A6E9020}">
+							<ChildrenList>
+								<Action Name="Resume" ID="{55A3A9ED-8C6D-426F-B8D7-9CD2B59B2084}" ShortID="442743447" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{84B3619B-E5FD-43AE-A9B3-853D2B8E8AD0}" Global="true">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{50B5FE89-6A68-4A4F-B7FB-936271B9565F}" ShortID="809734397" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{C3EBA96E-9FAC-4F3D-BCFB-EC4F369517FF}" Global="true">
+											<ObjectRef Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{6E1805E3-A30C-4BE7-8882-A6CEB5AF8941}" ShortID="1030559800" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{BD3A0659-B6E2-4FD6-8929-D7AFD38B6020}" Global="true">
+											<ObjectRef Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{92B35BE1-E6D1-441A-9DA6-2B79931C6743}" ShortID="607444009" Type="Resume" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+										<Property Name="MasterResume" Type="bool" Value="True"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1E33E49F-9639-47FB-8BE9-49B891F06B64}" Global="true">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Resume" ID="{DC78C95A-0731-4D6C-BF54-80B27919C03E}" ShortID="586915432" Type="Resume" Scope="One" Global="true">
+									<ElementList>
+										<Element ID="{1E2630DC-EB62-4E40-BB5F-0435F664D0C3}" Global="true">
+											<ObjectRef Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX" ID="{8D383326-0A1F-4D3F-8049-56D131A3984D}" ShortID="135543348"/>
+				<Folder Name="Speech" ID="{2B43D8C9-A444-4171-8A55-99BF73C4DA84}" ShortID="594840569">
+					<ChildrenList>
+						<Event Name="ABDO_TH_SWIMSUIT_KUDOS_A" ID="{EC9461FB-77FE-42EE-88D1-C86132597B27}">
+							<ChildrenList>
+								<Action Name="Play" ID="{1335C106-A05B-4051-AD2C-266A91945D9F}" ShortID="855720982" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{28C25BF8-28E7-4C8E-A961-34E841C4BA4A}" Global="false">
+											<ObjectRef Name="ABDO_TH_SWIMSUIT_KUDOS_A" ID="{F825ADF6-F21A-47D2-B5FA-AFA2493C3727}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_TH_SWIMSUIT_WARNING_A" ID="{21CF8EC3-5E92-440E-815B-C88BF89EB02E}">
+							<ChildrenList>
+								<Action Name="Play" ID="{93F29BDB-52DA-4672-81D7-C4ED250DC0A2}" ShortID="453971514" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{D773046B-CA36-41B2-B65F-FECA07AC2C13}" Global="false">
+											<ObjectRef Name="ABDO_TH_SWIMSUIT_WARNING_A" ID="{133B6544-0F7D-4AC5-B640-5C1C1FD1A48E}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_SS_DECLARE_WAR_FROM_AI_A" ID="{D3F42DFC-53CB-4C12-91B2-911BD470FD48}">
+							<ChildrenList>
+								<Action Name="Play" ID="{8552ECE9-7164-43A5-807C-3FE70F4A08B1}" ShortID="363909713" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{07198405-C28E-468F-BFD2-9FF38A788A5E}" Global="false">
+											<ObjectRef Name="ABDO_SS_DECLARE_WAR_FROM_AI_A" ID="{1A1050BF-D5B8-46A8-BF9D-728AB39428CF}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_SS_DEFEAT_A" ID="{C9852C83-8C40-4CB9-BA43-F2A352F4C303}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AAD8FBC7-2A64-453B-BE7D-C1013E883549}" ShortID="294745658" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{4CC0F001-8379-416C-94D5-87A5E2B76E4A}" Global="false">
+											<ObjectRef Name="ABDO_SS_DEFEAT_A" ID="{7BD58A5C-0ADF-4451-9790-58E5F9684A2A}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_SS_MISC_PEP_TALK_A" ID="{819FA358-F465-44E9-B6A9-8296F79C608A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{87A077A5-C1D7-4F8E-9E3F-DC3A6DB3BCDF}" ShortID="1070916051" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{30B4AF29-AD83-4568-8DA4-AC5266E1BBFD}" Global="false">
+											<ObjectRef Name="ABDO_SS_MISC_PEP_TALK_A" ID="{0EA64C49-073F-4030-92A1-F08BBD44246C}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_TH_FIRST_MEET_A" ID="{0F596019-E1C5-4FDF-B0C2-398F3DDE93A7}">
+							<ChildrenList>
+								<Action Name="Play" ID="{7D74091F-4510-4754-B65D-6063B04CC0E6}" ShortID="826388625" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{9B74C995-A25F-4AC8-828D-04365F6FC9BC}" Global="false">
+											<ObjectRef Name="ABDO_TH_FIRST_MEET_A" ID="{BE4758D4-8DF2-4E2E-B385-395108E926C2}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_TH_DECLARE_WAR_A" ID="{EBE15710-CAAE-42CA-8269-818B61CD9905}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D90871B3-FE07-4009-B2C9-3A55D2A59C25}" ShortID="902694526" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{648DCF48-348F-4E7F-ACA9-D152F9054069}" Global="false">
+											<ObjectRef Name="ABDO_TH_DECLARE_WAR_A" ID="{57057F2D-33C8-42BB-BB44-FC35CDC1CEDE}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_TH_DEFEAT_A" ID="{21FA03B5-9193-4349-8731-EF1D34308B2F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{4F859391-89D7-473B-B5FB-DA107DBB9A2B}" ShortID="871041643" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{9E6B217A-88ED-46E2-80EE-8CA31D246AF9}" Global="false">
+											<ObjectRef Name="ABDO_TH_DEFEAT_A" ID="{3A7D58E4-5C60-4688-914A-0D0B83925AA6}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_TH_DECLARE_WAR_FROM_AI_A" ID="{8B4CCF20-97D0-4974-9D63-E440F3D66817}">
+							<ChildrenList>
+								<Action Name="Play" ID="{74B928F0-DC38-4551-9A94-92EF2EF488AF}" ShortID="579314261" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{EBF74CAF-E68B-4A5E-82B4-5BEE0CE5794A}" Global="false">
+											<ObjectRef Name="ABDO_TH_DECLARE_WAR_FROM_AI_A" ID="{782D621D-8087-4FC3-889E-05B555FE9066}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_SS_KUDOS_A" ID="{AAC60FEE-443F-443A-84D5-FCA6E4516CE9}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5081ECA1-43DB-4299-A6D3-FF54F51A4C20}" ShortID="677164722" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{DCF4F1F1-342C-442C-A51A-64AC89C8AA23}" Global="false">
+											<ObjectRef Name="ABDO_SS_KUDOS_A" ID="{694AD20A-CA15-4CDC-BE36-362CE0691953}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_SS_FIRST_MEET_A" ID="{C60BCCD4-7202-41CC-97EA-6192BF5B2A7A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{333B3C12-5588-4244-8055-81B09A395F30}" ShortID="131516727" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{024B8F27-E66B-4AD2-B5E3-ED2CC073AD5A}" Global="false">
+											<ObjectRef Name="ABDO_SS_FIRST_MEET_A" ID="{178F155C-DE65-45C8-B9EF-1798CC49CA0F}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A" ID="{25112B6B-5FFB-4272-8DBD-EE7B4F8DD2E5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B48BA3DE-F21F-46FB-89D7-C8CC60A191C3}" ShortID="588567788" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{C9C7877C-3505-40A3-A747-DEA1513DF8FD}" Global="false">
+											<ObjectRef Name="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A" ID="{D010572F-1CF7-4EEE-97D1-184F22FBD45B}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_SS_DECLARE_WAR_A" ID="{CA1A9AFA-2F59-4B4D-A4A5-4846C78814E1}">
+							<ChildrenList>
+								<Action Name="Play" ID="{37569E43-8328-4E19-AF07-0DF8913BF448}" ShortID="519260370" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{77FC67ED-0257-4C56-B53C-AD6AF0DB375C}" Global="false">
+											<ObjectRef Name="ABDO_SS_DECLARE_WAR_A" ID="{CD79C4EE-2208-48D2-AE2A-58481C268A55}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ABDO_SS_WARNING_A" ID="{246E6223-4D78-40AD-A0D2-A075CBF4802D}">
+							<ChildrenList>
+								<Action Name="Play" ID="{02F98D6A-8530-4810-98B1-5E83D9858A4C}" ShortID="132043325" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{F3436055-AB69-41C9-A1A0-675306A5894E}" Global="false">
+											<ObjectRef Name="ABDO_SS_WARNING_A" ID="{177DA6F5-DB41-4DE6-B023-34FC49C97F6C}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

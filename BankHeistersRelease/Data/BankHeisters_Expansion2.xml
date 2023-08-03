@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_ABYDOS_BRANCH_SCHOOL" Texture="Moment_Infrastructure_Abydos"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_ABYDOS_RESORT" Texture="Moment_Infrastructure_Abydos_Resort"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Texture="Moment_UniqueUnit_Abydos_FireSupportDrone"/>
+	</MomentIllustrations>
+	
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="Government_Science"/>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="Pamukkale_Science"/>
+		<!--
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="GrasslandFloodplains_Science_AbydosBranchSchool"/>
+		<Row DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" YieldChangeId="PlainsFloodplains_Science_AbydosBranchSchool"/>	
+		-->
+	</District_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="Floodplains_Science_AbydosBranchSchool"/>
+			<Set>
+				<Description>LOC_DISTRICT_FLOODPLAINS_SCIENCE_XP2</Description>
+			</Set>
+		</Update>
+		<Row ID="GrasslandFloodplains_Science_AbydosBranchSchool" Description="LOC_DISTRICT_FLOODPLAINS_GRASSLAND_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ID="PlainsFloodplains_Science_AbydosBranchSchool" Description="LOC_DISTRICT_FLOODPLAINS_PLAINS_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FLOODPLAINS_PLAINS"/>
+	</Adjacency_YieldChanges>
+	
+	<AiListTypes>
+		<Row ListType="TakanishiHoshinoSwimsuitResolutions"/>
+		<Row ListType="TakanishiHoshinoSwimsuitDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="TakanishiHoshinoSwimsuitResolutions" AgendaType="TRAIT_LEADER_RESORT_RESTORATION" System="Resolutions"/>
+		<Row ListType="TakanishiHoshinoSwimsuitDiscussions" AgendaType="TRAIT_LEADER_RESORT_RESTORATION" System="Discussions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="TakanishiHoshinoSwimsuitResolutions" Item="WC_RES_HERITAGE_ORG" Favored="true"/>
+		<Row ListType="TakanishiHoshinoSwimsuitResolutions" Item="WC_EMERGENCY_WORLD_FAIR" Favored="true"/>
+		<Row ListType="TakanishiHoshinoSwimsuitResolutions" Item="WC_EMERGENCY_NOBEL_PRIZE_LITERATURE" Favored="true"/>
+	</AiFavoredItems>
+
+	<Types>
+		<Row Type="NAMED_RIVER_TAMAGAWA_RIVER" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_NISHIGAWA_RIVER" Kind="KIND_NAMED_RIVER"/>
+	</Types>
+
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_RIVER_TAMAGAWA_RIVER" Name="LOC_NAMED_RIVER_TAMAGAWA_RIVER_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_NISHIGAWA_RIVER" Name="LOC_NAMED_RIVER_NISHIGAWA_RIVER_NAME"/>
+	</NamedRivers>
+
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_TAMAGAWA_RIVER" CivilizationType="CIVILIZATION_ABYDOS"/>
+		<Row NamedRiverType="NAMED_RIVER_NISHIGAWA_RIVER" CivilizationType="CIVILIZATION_ABYDOS"/>
+	</NamedRiverCivilizations>
+
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_SPACE_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SPACE_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL_MODIFIER</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_DISTRICT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ABYDOS_BRANCH_SCHOOL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ABYDOS_BRANCH_SCHOOL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_ABYDOS_BRANCH_SCHOOL_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>500</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

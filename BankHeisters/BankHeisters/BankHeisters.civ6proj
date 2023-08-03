@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_BANK_HEISTERS_MOD_TITLE</Name>
+    <Guid>8e29df21-057a-4d89-a5c3-8e835f35418d</Guid>
+    <ProjectGuid>d43ba486-8826-4dd5-8d5a-18c253c051ff</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_BANK_HEISTERS_MOD_TEASER</Teaser>
+    <Description>LOC_BANK_HEISTERS_MOD_DESCRIPTION</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="BankHeistersSettings"><File>Data/BankHeisters_Config.xml</File></UpdateDatabase><UpdateArt id="BankHeistersSettingsArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="BankHeistersColors"><File>Data/BankHeisters_Colors.xml</File></UpdateColors><UpdateText id="BankHeistersSettingsText"><File>Text/BankHeisters_ConfigText_AFallback.xml</File><File>Text/BankHeisters_ConfigText_Translations.xml</File></UpdateText><UpdateIcons id="BankHeistersSettingsIcons"><File>Data/BankHeisters_Icons.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <LocalizedTextData><![CDATA[<LocalizedText><File>Text/BankHeisters_PackageText_AFallback.xml</File><File>Text/BankHeisters_PackageText_Translations.xml</File></LocalizedText>]]></LocalizedTextData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="BankHeisters"><LeaderPlayable>Players:StandardPlayers::LEADER_SUNAOOKAMI_SHIROKO,Players:StandardPlayers::LEADER_TAKANASHI_HOSHINO_SWIMSUIT,StandardPlayers::LEADER_SUNAOOKAMI_SHIROKO,StandardPlayers::LEADER_TAKANASHI_HOSHINO_SWIMSUIT,Players:Expansion1_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion1_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT,Players:Expansion2_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion2_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="BankHeisters_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion1_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="BankHeisters_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion2_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="SecretSocieties"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="BankHeistersArt"><Criteria>BankHeisters</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="BankHeistersGameplay"><Criteria>BankHeisters</Criteria><File>Data/BankHeisters_Civilizations.xml</File><File>Data/BankHeisters_Leaders.xml</File><File>Data/BankHeisters_Units.xml</File><File>Data/BankHeisters_Districts.xml</File><File>Data/BankHeisters_Improvements.xml</File><File>Data/BankHeisters_Projects.xml</File></UpdateDatabase><UpdateColors id="BankHeistersColors"><Criteria>BankHeisters</Criteria><File>Data/BankHeisters_Colors.xml</File></UpdateColors><UpdateDatabase id="BankHeistersGameplay_XP1"><Criteria>BankHeisters_Expansion1</Criteria><File>Data/BankHeisters_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="BankHeistersGameplay_XP2"><Criteria>BankHeisters_Expansion2</Criteria><File>Data/BankHeisters_Expansion2.xml</File></UpdateDatabase><UpdateDatabase id="BankHeisters_SecretSocieties_MODE"><Criteria>SecretSocieties</Criteria><File>Data/BankHeisters_SecretSocieties_MODE.xml</File></UpdateDatabase><UpdateText id="BankHeisters_Text"><Criteria>BankHeisters</Criteria><File>Text/BankHeisters_ConfigText_AFallback.xml</File><File>Text/BankHeisters_ConfigText_Translations.xml</File><File>Text/BankHeisters_Text_AFallback.xml</File><File>Text/BankHeisters_Text_Translations.xml</File></UpdateText><UpdateIcons id="BankHeisters_Icons"><Criteria>BankHeisters</Criteria><File>Data/BankHeisters_Icons.xml</File></UpdateIcons><UpdateLogitechARX id="BankHeisters_ARX"><Criteria>BankHeisters</Criteria></UpdateLogitechARX><UpdateAudio id="BankHeisters_Audio"><Criteria>BankHeisters</Criteria><File>Platforms/Windows/Audio/BankHeisters_Banks.ini</File></UpdateAudio><AddGameplayScripts id="BankHeistersScripts"><Criteria>BankHeisters</Criteria><File>Scripts/BankHeisters_ShirokoGameplay.lua</File></AddGameplayScripts><ImportFiles id="BankHeistersUI"><Properties><LoadOrder>0</LoadOrder></Properties><Criteria>BankHeisters</Criteria><File>UI/Replacements/AdjacencyBonusSupport.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <AssemblyName>BankHeisters</AssemblyName>
+    <RootNamespace>BankHeisters</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="BankHeisters.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\BankHeisters_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Improvements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Projects.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_SecretSocieties_MODE.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\BankHeisters_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1069728462.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\27001946.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\46843525.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\529311734.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\571248463.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\578068155.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\62934778.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\762733230.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\990266512.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Abydos_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Abydos_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Abydos_Music_Bank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Abydos_Speech.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Abydos_Speech.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Abydos_Speech.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\BankHeisters_Banks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\BankHeisters_ShirokoGameplay.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BankHeisters_ConfigText_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BankHeisters_ConfigText_Translations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BankHeisters_PackageText_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BankHeisters_PackageText_Translations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BankHeisters_Text_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\BankHeisters_Text_Translations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Replacements\AdjacencyBonusSupport.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <None Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="ArtDefs\Overlay.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\Shell_Loading.xlp">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\StrategicView_UILenses.xlp">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\UILensModels.xlp">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\UI_LeaderScenes.xlp">
+      <SubType>Content</SubType>
+    </None>
+    <None Include="XLPs\UI_PrideMoments.xlp">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\ARX" />
+    <Folder Include="UI" />
+    <Folder Include="Scripts" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
+    <Folder Include="Text\" />
+    <Folder Include="UI\Replacements" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

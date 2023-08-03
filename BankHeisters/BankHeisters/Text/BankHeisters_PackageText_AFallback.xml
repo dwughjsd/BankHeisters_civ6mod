@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <Row Tag="LOC_BANK_HEISTERS_MOD_TITLE" Language="en_US">
+            <Text>Bank Heisters Pack</Text>
+        </Row>
+        <Row Tag="LOC_BANK_HEISTERS_MOD_TEASER" Language="en_US">
+            <Text>New Civilization and Leader - Sunaookami Shiroko and Takanashi Hoshino (Swimsuit) of Abydos</Text>
+        </Row>
+        <Row Tag="LOC_BANK_HEISTERS_MOD_DESCRIPTION" Language="en_US">
+            <Text>Contains a new civilization and 2 leaders.</Text>
+        </Row>
+    </LocalizedText>
+</GameData>

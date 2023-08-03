@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3568958266" Language="SFX">
+			<ShortName>Abydos_Speech</ShortName>
+			<Path>Abydos_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="103096784" Name="ABDO_SS_DECLARE_WAR_A"/>
+				<Event Id="2111550428" Name="ABDO_SS_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="2898986802" Name="ABDO_SS_DEFEAT_A"/>
+				<Event Id="1923519931" Name="ABDO_SS_FIRST_MEET_A"/>
+				<Event Id="800249975" Name="ABDO_SS_KUDOS_A"/>
+				<Event Id="1972018606" Name="ABDO_SS_MISC_PEP_TALK_A"/>
+				<Event Id="4022081969" Name="ABDO_SS_WARNING_A"/>
+				<Event Id="582602030" Name="ABDO_TH_DECLARE_WAR_A"/>
+				<Event Id="3232795126" Name="ABDO_TH_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="1238350060" Name="ABDO_TH_DEFEAT_A"/>
+				<Event Id="1844254761" Name="ABDO_TH_FIRST_MEET_A"/>
+				<Event Id="3615480649" Name="ABDO_TH_SWIMSUIT_KUDOS_A"/>
+				<Event Id="3613697392" Name="ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A"/>
+				<Event Id="2056662603" Name="ABDO_TH_SWIMSUIT_WARNING_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="181258435" Language="SFX">
+					<ShortName>ABDO_TH_DEFEAT_A.wav</ShortName>
+					<Path>SFX\ABDO_TH_DEFEAT_A_838899FF.wem</Path>
+				</File>
+				<File Id="215937841" Language="SFX">
+					<ShortName>ABDO_SS_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\ABDO_SS_DECLARE_WAR_A_838899FF.wem</Path>
+				</File>
+				<File Id="296739437" Language="SFX">
+					<ShortName>ABDO_TH_SWIMSUIT_KUDOS_A.wav</ShortName>
+					<Path>SFX\ABDO_TH_SWIMSUIT_KUDOS_A_838899FF.wem</Path>
+				</File>
+				<File Id="381837471" Language="SFX">
+					<ShortName>ABDO_SS_KUDOS_A.wav</ShortName>
+					<Path>SFX\ABDO_SS_KUDOS_A_838899FF.wem</Path>
+				</File>
+				<File Id="434174466" Language="SFX">
+					<ShortName>ABDO_SS_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\ABDO_SS_MISC_PEP_TALK_A_838899FF.wem</Path>
+				</File>
+				<File Id="455432253" Language="SFX">
+					<ShortName>ABDO_TH_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\ABDO_TH_DECLARE_WAR_A_838899FF.wem</Path>
+				</File>
+				<File Id="530456079" Language="SFX">
+					<ShortName>ABDO_TH_SWIMSUIT_WARNING_A.wav</ShortName>
+					<Path>SFX\ABDO_TH_SWIMSUIT_WARNING_A_838899FF.wem</Path>
+				</File>
+				<File Id="540909711" Language="SFX">
+					<ShortName>ABDO_SS_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\ABDO_SS_DECLARE_WAR_FROM_AI_A_838899FF.wem</Path>
+				</File>
+				<File Id="548020282" Language="SFX">
+					<ShortName>ABDO_SS_WARNING_A.wav</ShortName>
+					<Path>SFX\ABDO_SS_WARNING_A_838899FF.wem</Path>
+				</File>
+				<File Id="721351419" Language="SFX">
+					<ShortName>ABDO_SS_DEFEAT_A.wav</ShortName>
+					<Path>SFX\ABDO_SS_DEFEAT_A_838899FF.wem</Path>
+				</File>
+				<File Id="742234000" Language="SFX">
+					<ShortName>ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\ABDO_TH_SWIMSUIT_MISC_PEP_TALK_A_838899FF.wem</Path>
+				</File>
+				<File Id="771702031" Language="SFX">
+					<ShortName>ABDO_TH_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\ABDO_TH_DECLARE_WAR_FROM_AI_A_838899FF.wem</Path>
+				</File>
+				<File Id="845598507" Language="SFX">
+					<ShortName>ABDO_TH_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\ABDO_TH_FIRST_MEET_A_838899FF.wem</Path>
+				</File>
+				<File Id="1039896319" Language="SFX">
+					<ShortName>ABDO_SS_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\ABDO_SS_FIRST_MEET_A_838899FF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

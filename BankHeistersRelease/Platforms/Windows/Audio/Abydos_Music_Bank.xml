@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="4073444726" Language="SFX">
+			<ShortName>Abydos_Music_Bank</ShortName>
+			<Path>Abydos_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3766774668" Name="Pause_Music_ABYDOS"/>
+				<Event Id="1273124808" Name="Play_Leader_Music_ABYDOS"/>
+				<Event Id="2720786606" Name="Play_Music_ABYDOS"/>
+				<Event Id="2659932619" Name="Resume_Music_ABYDOS"/>
+				<Event Id="537657558" Name="Start_Music_ABYDOS"/>
+				<Event Id="24017546" Name="Stop_Leader_Music_ABYDOS"/>
+				<Event Id="1001787700" Name="Stop_Music_ABYDOS"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="27001946" Language="SFX">
+					<ShortName>02. Midsummer cat.wav</ShortName>
+					<Path>SFX\02. Midsummer cat_5E5FEB08.wem</Path>
+				</File>
+				<File Id="46843525" Language="SFX">
+					<ShortName>Abydos_Ancient.wav</ShortName>
+					<Path>SFX\Abydos_Ancient_5E5FEB08.wem</Path>
+				</File>
+				<File Id="62934778" Language="SFX">
+					<ShortName>02. Romantic Smile.wav</ShortName>
+					<Path>SFX\02. Romantic Smile_5E5FEB08.wem</Path>
+				</File>
+				<File Id="529311734" Language="SFX">
+					<ShortName>05. Step by Step.wav</ShortName>
+					<Path>SFX\05. Step by Step_5E5FEB08.wem</Path>
+				</File>
+				<File Id="571248463" Language="SFX">
+					<ShortName>Abydos_Modern.wav</ShortName>
+					<Path>SFX\Abydos_Modern_5E5FEB08.wem</Path>
+				</File>
+				<File Id="578068155" Language="SFX">
+					<ShortName>Aoharu.wav</ShortName>
+					<Path>SFX\Aoharu_5E5FEB08.wem</Path>
+				</File>
+				<File Id="762733230" Language="SFX">
+					<ShortName>08. Daily Routine 247.wav</ShortName>
+					<Path>SFX\08. Daily Routine 247_5E5FEB08.wem</Path>
+				</File>
+				<File Id="990266512" Language="SFX">
+					<ShortName>13. Signal of Abydos.wav</ShortName>
+					<Path>SFX\13. Signal of Abydos_5E5FEB08.wem</Path>
+				</File>
+				<File Id="1069728462" Language="SFX">
+					<ShortName>09. Future Bossa.wav</ShortName>
+					<Path>SFX\09. Future Bossa_5E5FEB08.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="Abydos256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_ABYDOS"/>
+		<Row Filename="Abydos22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_ABYDOS"/>
+
+		<Row Filename="LeaderSunaookamiShiroko32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+		<Row Filename="LeaderSunaookamiShiroko45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+		<Row Filename="LeaderSunaookamiShiroko48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+		<Row Filename="LeaderSunaookamiShiroko50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+		<Row Filename="LeaderSunaookamiShiroko55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+		<Row Filename="LeaderSunaookamiShiroko64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+		<Row Filename="LeaderSunaookamiShiroko80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+		<Row Filename="LeaderSunaookamiShiroko256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_SUNAOOKAMI_SHIROKO"/>
+
+		<Row Filename="LeaderTanashiHoshinoSwimsuit32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+		<Row Filename="LeaderTanashiHoshinoSwimsuit45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+		<Row Filename="LeaderTanashiHoshinoSwimsuit48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+		<Row Filename="LeaderTanashiHoshinoSwimsuit50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+		<Row Filename="LeaderTanashiHoshinoSwimsuit55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+		<Row Filename="LeaderTanashiHoshinoSwimsuit64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+		<Row Filename="LeaderTanashiHoshinoSwimsuit80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+		<Row Filename="LeaderTanashiHoshinoSwimsuit256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT"/>
+	</IconTextureAtlases>
+	
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_ABYDOS" Atlas="ICON_ATLAS_ABYDOS" Index="0"/>
+		<Row Name="ICON_LEADER_SUNAOOKAMI_SHIROKO" Atlas="ICON_ATLAS_SUNAOOKAMI_SHIROKO" Index="0"/>
+		<Row Name="ICON_LEADER_TAKANASHI_HOSHINO_SWIMSUIT" Atlas="ICON_ATLAS_TAKANASHI_HOSHINO_SWIMSUIT" Index="0"/>
+		<Row Name="ICON_DISTRICT_ABYDOS_BRANCH_SCHOOL" Atlas="ICON_ATLAS_DISTRICTS" Index="2"/>
+		<Row Name="ICON_DISTRICT_ABYDOS_BRANCH_SCHOOL_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="2"/>
+		<Row Name="DISTRICT_ABYDOS_BRANCH_SCHOOL" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="177"/>
+		<Row Name="ICON_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_PORTRAIT"             Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="23"/>
+		<Row Name="ICON_UNIT_ABYDOS_FIRE_SUPPORT_DRONE"         Atlas="ICON_ATLAS_UNITS" Index="89"/>
+		<Row Name="ICON_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_FOW"         Atlas="ICON_ATLAS_UNITS_FOW" Index="89"/>
+		<Row Name="ICON_IMPROVEMENT_ABYDOS_RESORT"             	Atlas="ICON_ATLAS_UNIT_ACTIONS"   Index="14"/>
+	</IconDefinitions>
+</GameData>

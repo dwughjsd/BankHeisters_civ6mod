@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8e29df21-057a-4d89-a5c3-8e835f35418d" version="1">
+  <Properties>
+    <Name>LOC_BANK_HEISTERS_MOD_TITLE</Name>
+    <Description>LOC_BANK_HEISTERS_MOD_DESCRIPTION</Description>
+    <Created>1691065481</Created>
+    <Teaser>LOC_BANK_HEISTERS_MOD_TEASER</Teaser>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="BankHeisters">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_SUNAOOKAMI_SHIROKO,Players:StandardPlayers::LEADER_TAKANASHI_HOSHINO_SWIMSUIT,StandardPlayers::LEADER_SUNAOOKAMI_SHIROKO,StandardPlayers::LEADER_TAKANASHI_HOSHINO_SWIMSUIT,Players:Expansion1_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion1_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT,Players:Expansion2_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion2_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT</LeaderPlayable>
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="BankHeisters_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion1_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="BankHeisters_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_SUNAOOKAMI_SHIROKO,Players:Expansion2_Players::LEADER_TAKANASHI_HOSHINO_SWIMSUIT</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="SecretSocieties">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="BankHeistersSettings">
+      <File>Data/BankHeisters_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="BankHeistersSettingsArt">
+      <File>BankHeisters.dep</File>
+    </UpdateArt>
+    <UpdateColors id="BankHeistersColors">
+      <File>Data/BankHeisters_Colors.xml</File>
+    </UpdateColors>
+    <UpdateText id="BankHeistersSettingsText">
+      <File>Text/BankHeisters_ConfigText_AFallback.xml</File>
+      <File>Text/BankHeisters_ConfigText_Translations.xml</File>
+    </UpdateText>
+    <UpdateIcons id="BankHeistersSettingsIcons">
+      <File>Data/BankHeisters_Icons.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateArt id="BankHeistersArt">
+      <Criteria>BankHeisters</Criteria>
+      <File>BankHeisters.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="BankHeistersGameplay">
+      <Criteria>BankHeisters</Criteria>
+      <File>Data/BankHeisters_Civilizations.xml</File>
+      <File>Data/BankHeisters_Leaders.xml</File>
+      <File>Data/BankHeisters_Units.xml</File>
+      <File>Data/BankHeisters_Districts.xml</File>
+      <File>Data/BankHeisters_Improvements.xml</File>
+      <File>Data/BankHeisters_Projects.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="BankHeistersColors">
+      <Criteria>BankHeisters</Criteria>
+      <File>Data/BankHeisters_Colors.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="BankHeistersGameplay_XP1">
+      <Criteria>BankHeisters_Expansion1</Criteria>
+      <File>Data/BankHeisters_Expansion1.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="BankHeistersGameplay_XP2">
+      <Criteria>BankHeisters_Expansion2</Criteria>
+      <File>Data/BankHeisters_Expansion2.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="BankHeisters_SecretSocieties_MODE">
+      <Criteria>SecretSocieties</Criteria>
+      <File>Data/BankHeisters_SecretSocieties_MODE.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="BankHeisters_Text">
+      <Criteria>BankHeisters</Criteria>
+      <File>Text/BankHeisters_ConfigText_AFallback.xml</File>
+      <File>Text/BankHeisters_ConfigText_Translations.xml</File>
+      <File>Text/BankHeisters_Text_AFallback.xml</File>
+      <File>Text/BankHeisters_Text_Translations.xml</File>
+    </UpdateText>
+    <UpdateIcons id="BankHeisters_Icons">
+      <Criteria>BankHeisters</Criteria>
+      <File>Data/BankHeisters_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateLogitechARX id="BankHeisters_ARX">
+      <Criteria>BankHeisters</Criteria>
+    </UpdateLogitechARX>
+    <UpdateAudio id="BankHeisters_Audio">
+      <Criteria>BankHeisters</Criteria>
+      <File>Platforms/Windows/Audio/BankHeisters_Banks.ini</File>
+    </UpdateAudio>
+    <AddGameplayScripts id="BankHeistersScripts">
+      <Criteria>BankHeisters</Criteria>
+      <File>Scripts/BankHeisters_ShirokoGameplay.lua</File>
+    </AddGameplayScripts>
+    <ImportFiles id="BankHeistersUI">
+      <Properties>
+        <LoadOrder>0</LoadOrder>
+      </Properties>
+      <Criteria>BankHeisters</Criteria>
+      <File>UI/Replacements/AdjacencyBonusSupport.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <LocalizedText>
+    <File>Text/BankHeisters_PackageText_AFallback.xml</File>
+    <File>Text/BankHeisters_PackageText_Translations.xml</File>
+  </LocalizedText>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>BankHeisters.dep</File>
+    <File>Data/BankHeisters_Civilizations.xml</File>
+    <File>Data/BankHeisters_Colors.xml</File>
+    <File>Data/BankHeisters_Config.xml</File>
+    <File>Data/BankHeisters_Districts.xml</File>
+    <File>Data/BankHeisters_Expansion1.xml</File>
+    <File>Data/BankHeisters_Expansion2.xml</File>
+    <File>Data/BankHeisters_Icons.xml</File>
+    <File>Data/BankHeisters_Improvements.xml</File>
+    <File>Data/BankHeisters_Leaders.xml</File>
+    <File>Data/BankHeisters_Projects.xml</File>
+    <File>Data/BankHeisters_SecretSocieties_MODE.xml</File>
+    <File>Data/BankHeisters_Units.xml</File>
+    <File>Platforms/Windows/Audio/1069728462.wem</File>
+    <File>Platforms/Windows/Audio/27001946.wem</File>
+    <File>Platforms/Windows/Audio/46843525.wem</File>
+    <File>Platforms/Windows/Audio/529311734.wem</File>
+    <File>Platforms/Windows/Audio/571248463.wem</File>
+    <File>Platforms/Windows/Audio/578068155.wem</File>
+    <File>Platforms/Windows/Audio/62934778.wem</File>
+    <File>Platforms/Windows/Audio/762733230.wem</File>
+    <File>Platforms/Windows/Audio/990266512.wem</File>
+    <File>Platforms/Windows/Audio/Abydos_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Abydos_Music_Bank.txt</File>
+    <File>Platforms/Windows/Audio/Abydos_Music_Bank.xml</File>
+    <File>Platforms/Windows/Audio/Abydos_Speech.bnk</File>
+    <File>Platforms/Windows/Audio/Abydos_Speech.txt</File>
+    <File>Platforms/Windows/Audio/Abydos_Speech.xml</File>
+    <File>Platforms/Windows/Audio/BankHeisters_Banks.ini</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_hoshinoswimsuit.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_shiroko.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/light_rigs.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Abydos</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Abydos</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UILensAssets.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
+    <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+    <File>Scripts/BankHeisters_ShirokoGameplay.lua</File>
+    <File>Text/BankHeisters_ConfigText_AFallback.xml</File>
+    <File>Text/BankHeisters_ConfigText_Translations.xml</File>
+    <File>Text/BankHeisters_PackageText_AFallback.xml</File>
+    <File>Text/BankHeisters_PackageText_Translations.xml</File>
+    <File>Text/BankHeisters_Text_AFallback.xml</File>
+    <File>Text/BankHeisters_Text_Translations.xml</File>
+    <File>UI/Replacements/AdjacencyBonusSupport.lua</File>
+  </Files>
+</Mod>

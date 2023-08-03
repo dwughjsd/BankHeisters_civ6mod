@@ -1,0 +1,2807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37A78621-A2B7-4330-A73A-77E467A1130E}" SchemaVersion="70">
+	<InteractiveMusic>
+		<WorkUnit Name="AbydosBackgroundMusic" ID="{37A78621-A2B7-4330-A73A-77E467A1130E}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="id658623902_DO_NOT_TOUCH" ID="{26984207-93E3-44FE-982A-510A9615FD4A}" ShortID="658623902">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSwitchContainer Name="id554830605" ID="{EB516F78-AB70-4167-9471-637D43192CED}" ShortID="554830605">
+							<Comment>id554830605</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6BA83591-7B22-415C-9360-6E131C6E8D34}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{EFF33BB4-D358-4F76-82A5-FF25F0642790}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" ShortID="276876398">
+							<Comment>id276876398</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{52D4474C-6454-4661-B932-C906AF70C5D1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{BB1A978E-CA03-4BAC-A650-DE416574D38A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" ShortID="409025991">
+							<Comment>id409025991</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1D946F92-D740-4BC5-B3F3-25120F77784E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{9B319984-F2ED-427B-A568-50171E297122}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" ShortID="552184141">
+							<Comment>id552184141</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3AA77E83-7611-4304-A16C-12BDC560267F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{53E63384-1DFA-4E2A-BA4F-943DD9F145DA}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" ShortID="308673578">
+							<Comment>id308673578</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1476467B-BCE8-4312-A703-DF396237B91D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E8A3875D-7540-4441-B4D4-D6B7B3A4C058}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" ShortID="118127726">
+							<Comment>id118127726</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EAF9B93F-9C9C-4162-9CF7-C9E54D649AAB}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{7840D69C-C9F0-4C93-905C-7D3BD46162E2}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{D8ED232E-269A-482B-A5E4-5032A2E64141}">
+							<PropertyList>
+								<Property Name="PanY" Type="Real64" Value="75"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{7917D89B-095D-4532-A5CC-944CFC3321F8}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{060DCCC3-4852-4502-9FA2-026421516DC8}">
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{6365C170-E5A6-46C0-9FE9-3040E423846A}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{0C0FB9FF-108E-4270-A3D6-62D13B0E10F3}">
+									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{2FB05303-7A30-4F04-B171-0DD31BB6B7F7}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{35DCFC1E-3FF0-4A5E-91C7-24C1BA2446A2}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{665E84A9-8CF4-4D26-B55C-A1B5BF8AEFD4}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+										<Property Name="ExitSourceCustomCueMatchName" Type="string" Value="ExitCustom"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{CE992F25-905B-4CBC-9FF1-ED297CDF0ABD}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{97680FD0-E322-4D94-B52A-DB3F9F6C7F4A}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{9A8ABEC6-16BB-40B5-B057-5A431EACD1B3}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{1EF10B74-F010-4014-8C91-ACC8FF1E8DCF}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{13BF85D5-5007-4211-831D-AE4FD215BDC9}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{7FE94F59-AD7C-4F33-AEF5-DF6D982731D7}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{61B5EC61-6E7A-4D10-8A99-0282C582357A}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="LeaderMusic_Abydos" ID="{E464AA28-DE1B-421A-B746-471A08772C63}" ShortID="131457851">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="AbydosLeader_Ancient" ID="{3BF38309-5D6D-4019-82CE-3A05D3FCEBBA}" ShortID="436978402">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosMedieval" ID="{DAB76C6E-E675-4F34-A736-5B889B835799}" ShortID="240298179">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="192449.295125184"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Antient" ID="{1D63A5E1-9A41-4905-9BF2-994724B1FB33}" ShortID="483573185">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Ancient" ID="{C8EC2FCA-26C8-4C1E-9D7D-4FD305D24F73}" ShortID="795115830">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="46843525"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1DDA59C3-B592-472B-8C5B-B7A6866B51CE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{CB9A53E7-E194-45E9-82CB-68051AA43CCB}">
+													<ClipList>
+														<MusicClip Name="Abydos_Antient" ID="{9DC7C401-12C2-44B5-A1E9-B88F08FAD150}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185197"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Ancient" ID="{C8EC2FCA-26C8-4C1E-9D7D-4FD305D24F73}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{CF391507-8BA4-438E-98F8-E991E92EE7F2}"/>
+										<MusicCue Name="Exit Cue" ID="{B5B1AE20-71CA-48FE-839C-952916CC4B4C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="185356.304937875"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{C9DE80F1-4BE4-41AA-91AB-CCE6347F5334}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="184922.741624177"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FF72E95F-B908-4B79-BC7B-D156DA5EE430}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{071AAD3A-60D9-4D56-AC76-BEECBBA605DB}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{11EBB648-1B36-4D44-BCD4-332151A27E7C}" ShortID="533138008">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{33AE3E30-0D83-4B7C-AC0F-76B14D3F69D5}" ShortID="586189391">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AbydosMedieval" ID="{DAB76C6E-E675-4F34-A736-5B889B835799}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="AbydosLeader_Atomic" ID="{A3A1DCA5-3757-41D4-BD0D-39754E707389}" ShortID="176438493">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosAtomic" ID="{0B1BC796-9376-433D-A525-08AF4B18ABBF}" ShortID="89420432">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="385613.458333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Modern" ID="{65E22236-2B84-4A9E-BEEA-EA651554847C}" ShortID="232667217">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Modern" ID="{1210A973-99AD-4138-B010-39AF914505E8}" ShortID="759209824">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Modern.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="571248463"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4773A8A1-4BAE-479D-A55E-23969B411FB7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{130C9006-0B27-4446-93BA-70F95384014F}">
+													<ClipList>
+														<MusicClip Name="Abydos_Modern" ID="{5089435E-DE2F-4ABA-9462-5A0F34E5B525}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="137373.832199546"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Modern" ID="{1210A973-99AD-4138-B010-39AF914505E8}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{9A9D1480-3539-4051-9A15-2008B9C1CB94}"/>
+										<MusicCue Name="Exit Cue" ID="{611FAC21-30A0-4F34-86CE-8D38614E7F76}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="137275.666464162"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{D42269C9-7FC5-4D6A-8B48-204244C8B26E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="137176.434778847"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{944A8985-BBAF-44E5-96A8-5F4E77189A18}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CA7157D8-692B-448A-9F38-CC0F72FF935E}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{D6E1568D-ADF7-4B3D-973C-20797FBF69A1}" ShortID="640585181">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{208A851F-1742-4CB0-A1B8-62AEAA4360AA}" ShortID="267728782">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AbydosAtomic" ID="{0B1BC796-9376-433D-A525-08AF4B18ABBF}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="AbydosLeader_Industrial" ID="{DE78CA3A-0F88-4E7C-B1DB-120FE86556AB}" ShortID="611087935">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosAtomic" ID="{292B51A7-C9F4-4A18-AC63-C1E62E74E505}" ShortID="270429282">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="385613.458333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Modern" ID="{D7F047FE-571B-4AEF-83D6-F0151634228C}" ShortID="578528444">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Modern" ID="{2872E9CD-93D7-43EB-9C59-D56468D147F6}" ShortID="1056709253">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Modern.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="571248463"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D3CF8696-E88D-49AF-81DE-573CDF6854B1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C78DEE25-DB9E-4EB7-8B95-928B52814252}">
+													<ClipList>
+														<MusicClip Name="Abydos_Modern" ID="{2111C224-D0E8-40D6-9128-E93723A55A5A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="137373.832199546"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Modern" ID="{2872E9CD-93D7-43EB-9C59-D56468D147F6}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{9A70858F-2C15-43B1-AE12-DC46C464E223}"/>
+										<MusicCue Name="Exit Cue" ID="{1BC930FB-7518-4732-8BEF-6D747DB05F32}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="137275.666464162"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{002E07A1-B0BE-4DBB-BEE7-E736A9E39183}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="137176.434778847"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{260434E2-768C-4746-94F5-E636F4556049}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{58858E96-32F6-4816-80A4-0388DDFD72A1}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{3F8CC942-86AC-4702-995D-6169EC5CD8D4}" ShortID="926048871">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{9E3EB6DA-5717-41A2-AF08-22A22B4AF8C8}" ShortID="330040317">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AbydosAtomic" ID="{292B51A7-C9F4-4A18-AC63-C1E62E74E505}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="AbydosLeader_Medieval" ID="{5C18286D-EF76-4AF5-88E2-6E56BF609BA7}" ShortID="193822588">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosMedieval" ID="{3111A8B6-BFF6-4DC1-B1D9-69D926FC87AE}" ShortID="864409524">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="192449.295125184"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Antient" ID="{3BEB306E-FB78-4BD4-902A-9C2C235BDEF9}" ShortID="346278562">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Ancient" ID="{786D384F-B551-449D-B284-679361E2A451}" ShortID="985105201">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="46843525"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{419634A7-0195-4E1B-AC16-B9BA448F1B52}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EAB5A2E9-4C83-4B76-A6CB-6C92685B45FB}">
+													<ClipList>
+														<MusicClip Name="Abydos_Antient" ID="{9608CDFF-757B-4C1E-807F-13B7826CE348}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185197"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Ancient" ID="{786D384F-B551-449D-B284-679361E2A451}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{1452720B-C6E2-4A0F-86D9-89D455314232}"/>
+										<MusicCue Name="Exit Cue" ID="{D52A4D4A-91DC-4C8E-9FC6-2EC9433D214B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="185356.304937875"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{0196DE78-3EC0-428B-84F6-60F58D4CA7A4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="184922.741624177"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D00EAC58-8230-4740-8D15-4F8D9C64250E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{461551CF-0D23-4298-B201-BE4423B9C9BF}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{EAD45850-C4FD-4C1B-BE2B-E84CDC20847C}" ShortID="886829665">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{24765011-46C6-45DB-B90E-D81956C93F67}" ShortID="193671127">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AbydosMedieval" ID="{3111A8B6-BFF6-4DC1-B1D9-69D926FC87AE}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{92061424-B874-45AD-9F44-01528B8E4E77}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{8C4E248F-62AB-4A50-B843-849B6B43DC4F}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosLeader_Ancient" ID="{3BF38309-5D6D-4019-82CE-3A05D3FCEBBA}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosLeader_Medieval" ID="{5C18286D-EF76-4AF5-88E2-6E56BF609BA7}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosLeader_Industrial" ID="{DE78CA3A-0F88-4E7C-B1DB-120FE86556AB}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosLeader_Atomic" ID="{A3A1DCA5-3757-41D4-BD0D-39754E707389}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="ThemeMusic_Abydos" ID="{DA0A7434-B6BC-4099-BBCD-3DFC7DE1A657}" ShortID="1017882477">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="AbydosAncient" ID="{10D4D65B-6360-4733-A9BB-BA706BF91C0E}" ShortID="795683834">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="241008.033240998"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Abydos_Ancient" ID="{8CB51827-9A2B-4754-B258-0AFE22CCE6CE}" ShortID="72560228">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Abydos_Ancient" ID="{CAD07CF9-80DC-4442-8EB9-73FE9A6EC203}" ShortID="123241128">
+											<Language>SFX</Language>
+											<AudioFile>Abydos_Ancient.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="46843525"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3A86B59E-11BA-4378-B57E-E0C22223499B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{96359CAA-3C10-4AFE-BECB-9435399C5006}">
+											<ClipList>
+												<MusicClip Name="Abydos_Antient" ID="{EF779C80-E8C5-4BD4-B38B-8A82F6C04198}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="185197"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Abydos_Ancient" ID="{CAD07CF9-80DC-4442-8EB9-73FE9A6EC203}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{11FC0327-AA4C-42B6-8883-EC4AC33A7C68}"/>
+								<MusicCue Name="Exit Cue" ID="{1422F97B-8AA6-4201-94D7-623C3AC8CE37}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="185155.349722992"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{D45DAEB1-E482-499A-97ED-C8B396CEF480}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="184751.87918398"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="AbydosMedieval" ID="{CDBF275D-C1F4-4063-96AD-741A599E95B2}" ShortID="824540246">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="241683.744517544"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Abydos_Ancient" ID="{7716A4B6-2682-4BE3-B476-3021757AA4BA}" ShortID="469842083">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Abydos_Ancient" ID="{F71AB95B-56E2-4151-85CC-115CF3417504}" ShortID="770865383">
+											<Language>SFX</Language>
+											<AudioFile>Abydos_Ancient.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="46843525"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{3E8D2B4E-462B-4677-84C9-8850CFD3A51B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{15320119-7CE7-443F-9330-84D8C61C0910}">
+											<ClipList>
+												<MusicClip Name="Abydos_Antient" ID="{38A844F3-ABFA-4A58-9FF4-58CF9A128A93}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="185197"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Abydos_Ancient" ID="{F71AB95B-56E2-4151-85CC-115CF3417504}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CC500757-D19F-43AA-84B9-7EF161A0C856}"/>
+								<MusicCue Name="Exit Cue" ID="{341BA807-BFC3-49CF-B1FD-E81CC901F2A0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="185312.013432018"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{41684ECB-C243-4E91-8486-063F970F71F2}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="184857.80564693"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="AbydosIndustrial" ID="{02FE1BDE-0A21-4519-AB59-3825EE4E8F88}" ShortID="257190598">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="185148.041666667"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Abydos_Modern" ID="{7C97C94D-9632-45D8-9EE0-16A6D69DA2E8}" ShortID="59331965">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Abydos_Modern" ID="{D0767BA9-FD71-4213-A37D-CB52985369CF}" ShortID="136751933">
+											<Language>SFX</Language>
+											<AudioFile>Abydos_Modern.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="571248463"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4E70BF4D-746D-4BA0-9EC2-174D8F3235E2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{51ECF612-9EF6-4E8B-A8B5-3FEF14B5B6C3}">
+											<ClipList>
+												<MusicClip Name="Abydos_Modern" ID="{68153881-A7DF-4AFD-8465-3AD2802CC0D3}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="137373.832199546"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Abydos_Modern" ID="{D0767BA9-FD71-4213-A37D-CB52985369CF}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{460EF9D3-E135-4FEB-99D5-224B971BCE1B}"/>
+								<MusicCue Name="Exit Cue" ID="{4E5133E8-7147-4EBD-9C2C-E2C1D19056CB}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="136768.823531919"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{10438C37-185A-41D3-BCCD-F63A1AC21BC3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="136658.414847304"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="AbydosAtomic" ID="{C6B223E5-FE50-4D31-92AB-7764698FD4E9}" ShortID="227729742">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="193084.375"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Abydos_Modern" ID="{58C68F0E-D845-4FE6-83E7-1468CBE80CB6}" ShortID="679217707">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Abydos_Modern" ID="{CE311C96-A7FA-4116-9268-B945E3D8DC79}" ShortID="468394789">
+											<Language>SFX</Language>
+											<AudioFile>Abydos_Modern.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="571248463"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{47120936-1115-4340-955F-C6DC315DE29E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{96CAC17C-59F9-4CCB-A1D4-856882AE6D75}">
+											<ClipList>
+												<MusicClip Name="Abydos_Modern" ID="{B9A224F9-27CA-4565-A27D-41C4DEAC8EC6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="137373.832199546"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Abydos_Modern" ID="{CE311C96-A7FA-4116-9268-B945E3D8DC79}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{0870DC3A-36BF-4B9C-9E2A-23A56744472F}"/>
+								<MusicCue Name="Exit Cue" ID="{65C5BBBD-C71E-47FA-A63C-959C03856A84}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="137412.626068289"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{5ACDFB6E-075A-420E-901E-5BCA165622BC}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="137241.445337255"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{DCDD9290-3092-4CC1-BEE0-AC5221346123}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{F16A9C7E-53D8-4E31-B2D9-7D38EDF1E0FF}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosAncient" ID="{10D4D65B-6360-4733-A9BB-BA706BF91C0E}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosIndustrial" ID="{02FE1BDE-0A21-4519-AB59-3825EE4E8F88}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosMedieval" ID="{CDBF275D-C1F4-4063-96AD-741A599E95B2}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosAtomic" ID="{C6B223E5-FE50-4D31-92AB-7764698FD4E9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="CivilizationMusic_Abydos" ID="{06EFE1DE-2400-4F22-A6AA-C1272EB22D31}" ShortID="913141158">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="AbydosCiv_Ancient" ID="{C8CFD2B1-D076-4AFB-9578-4401267FC61E}" ShortID="287237322">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosMedieval" ID="{28186F2C-3C19-4A36-BA12-571A0D7108D4}" ShortID="46989859">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="192449.295125184"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Ancient" ID="{A8294E99-A33F-47C7-8C3C-FCDC6EA2111F}" ShortID="32078383">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Ancient" ID="{3B8FA878-1ACE-4E2C-B32C-EA6AF2318CD7}" ShortID="875892880">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="46843525"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D40B672B-B7D9-46C5-92FC-2905C8FBEEBC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5F7DAF94-3E1E-4204-AF7E-5BB81ED90912}">
+													<ClipList>
+														<MusicClip Name="Abydos_Antient" ID="{6C57D1E3-A215-4A5E-9D5C-901FB867EFBF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185197"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Ancient" ID="{3B8FA878-1ACE-4E2C-B32C-EA6AF2318CD7}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D5387CE7-08C6-4858-AD22-64150A39395E}"/>
+										<MusicCue Name="Exit Cue" ID="{E1A00965-52DC-4FA6-BB50-2F4D2F13836E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="184849.859424388"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{42380D37-63E1-41D7-9FC8-49C8B339DDF2}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="184163.073353946"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="02_ Midsummer cat" ID="{9C5BC60E-62B6-4A8E-89A1-CCE40A470A1E}" ShortID="206471479">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="210441.344969567"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="02_ Midsummer cat" ID="{67DF1886-B9D2-4AD8-A47F-4BDF238ABFC7}" ShortID="416868386">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="02_ Midsummer cat" ID="{48CC3B95-BC69-42A9-B6F6-AF371FC75F62}" ShortID="27001946">
+													<Language>SFX</Language>
+													<AudioFile>02. Midsummer cat.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AE8B3528-6B0D-4A51-9201-00B967552F57}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{451F0197-7335-4713-9284-CB24358F267A}">
+													<ClipList>
+														<MusicClip Name="02_ Midsummer cat" ID="{1806DF9D-37D2-4434-B8FC-B8ADBA6ADFDE}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139559.70521542"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="02_ Midsummer cat" ID="{48CC3B95-BC69-42A9-B6F6-AF371FC75F62}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{A00B2393-6E02-4A36-9784-0B4073C7CA1E}"/>
+										<MusicCue Name="Exit Cue" ID="{0D6FF99A-1CE1-4B5E-84F2-082EBF3A3D0F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="139559.70521542"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{1809457F-FB2B-44F1-B046-B947D2B97C20}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="139376.074024347"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="02_ Romantic Smile" ID="{31576BEC-FB1F-4964-854C-0BA2E20F39DF}" ShortID="350578381">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="142966.247368421"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="02_ Romantic Smile" ID="{DF887E0B-85FA-4D89-AA24-65A53A898224}" ShortID="156653766">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="02_ Romantic Smile" ID="{E4AF97BF-AD88-4A49-A8E0-4E5E522BAEFB}" ShortID="62934778">
+													<Language>SFX</Language>
+													<AudioFile>02. Romantic Smile.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{97CC50C2-C836-4060-9974-AF308409FF1D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6D9682F4-B7E2-49E0-8365-7E5897478259}">
+													<ClipList>
+														<MusicClip Name="02_ Romantic Smile" ID="{7C96FC79-3784-4155-9F49-1D19FCD3A6BA}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="133482"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="02_ Romantic Smile" ID="{E4AF97BF-AD88-4A49-A8E0-4E5E522BAEFB}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{B2965C0E-47F3-4EFF-82AF-7BF8F81D01CB}"/>
+										<MusicCue Name="Exit Cue" ID="{30E61C76-4FDF-4C5C-A7DA-BB31CF69CC07}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="133482"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{0AEC4CFC-CB3E-44A1-A3CA-C62AE1A06362}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="133130.731578947"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="05_ Step by Step" ID="{280C298E-91BA-483F-8658-ABBC6B54CF16}" ShortID="385138497">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="190996.968462824"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="05_ Step by Step" ID="{0012FBF9-A6F8-48FD-AEDD-3C96FADD990F}" ShortID="546986019">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="05_ Step by Step" ID="{7E2EDE21-2E30-4D8A-8BFC-417A5F3D67EA}" ShortID="529311734">
+													<Language>SFX</Language>
+													<AudioFile>05. Step by Step.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4756FD4B-DED9-433D-8434-115967F471B7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3D3FE665-DF9A-45DB-A59A-02E74E0B6D67}">
+													<ClipList>
+														<MusicClip Name="05_ Step by Step" ID="{CE191BEA-5593-4D1A-9103-7EA4CED2ADAD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="129953.174603175"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="05_ Step by Step" ID="{7E2EDE21-2E30-4D8A-8BFC-417A5F3D67EA}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{09A3F1D8-D861-4613-8151-F9EF70FCB6B5}"/>
+										<MusicCue Name="Exit Cue" ID="{D093EC79-2B40-4693-BF0D-6FA7791F9AF6}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="129953.174603175"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{047827E4-B24B-4ABF-B09E-E35F8765CA22}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="129953.174603175"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="08_ Daily Routine 247" ID="{4DDB4D51-1B48-463C-B94C-75D1733B6A8B}" ShortID="616720946">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="132327.140470223"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="08_ Daily Routine 247" ID="{DA5FBBE2-C845-41DD-900B-192BFADFA85C}" ShortID="572268140">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="08_ Daily Routine 247" ID="{FA23BDAF-D647-489C-8833-9C26B430FA6B}" ShortID="762733230">
+													<Language>SFX</Language>
+													<AudioFile>08. Daily Routine 247.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{96A63541-0C2B-4B8B-A50C-7553E69B0A09}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{74454560-BCBA-4391-8DA3-FCE7A0B9D88C}">
+													<ClipList>
+														<MusicClip Name="08_ Daily Routine 247" ID="{0A5F5F13-F6BC-43B4-AC12-3F24BE379534}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="116264.308390023"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="08_ Daily Routine 247" ID="{FA23BDAF-D647-489C-8833-9C26B430FA6B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{25693C54-8739-47E8-AABE-4B39226F2D78}"/>
+										<MusicCue Name="Exit Cue" ID="{BEACD105-C07A-402D-BB91-3E04BD53CA45}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="116264.308390023"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{7E538F9F-F95C-40A2-8E68-694371D19180}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="116264.308390023"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="09_ Future Bossa" ID="{CAA48AC9-D284-4C59-A522-28E19A906A7D}" ShortID="98574109">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="145324.254326292"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="09_ Future Bossa" ID="{B7397CB6-0434-43A7-949C-9F4C4737C71F}" ShortID="204779959">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="09_ Future Bossa" ID="{B434FAEA-881B-4EE5-ACDB-45AFCD1DAAF1}" ShortID="1069728462">
+													<Language>SFX</Language>
+													<AudioFile>09. Future Bossa.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{46A4BAFA-BCC1-4DB6-94F9-EA3C60D67A57}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{441B6C4B-9BBA-40E6-811F-C44DC64594EC}">
+													<ClipList>
+														<MusicClip Name="09_ Future Bossa" ID="{C909D038-75D6-4356-A599-487FDED39A10}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="130860.702947846"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="09_ Future Bossa" ID="{B434FAEA-881B-4EE5-ACDB-45AFCD1DAAF1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C61ED0F6-12D1-49D8-9E47-5E8E147056E7}"/>
+										<MusicCue Name="Exit Cue" ID="{0B7FC57B-DFE9-4FF2-8055-05D92B072213}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="130860.702947846"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{FBBCD938-11CA-4FED-89CF-892341FB1109}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="130688.517812388"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="13_ Signal of Abydos" ID="{94AE6E32-4D1F-4A69-B2D7-7A35D3DD4538}" ShortID="704875378">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="145873.441401122"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="13_ Signal of Abydos" ID="{0CD44C76-23A8-4003-9552-A5B8DEFBEED6}" ShortID="384468354">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="13_ Signal of Abydos" ID="{850AE5AD-91EF-4E17-A2E6-D04D02C8BDCB}" ShortID="990266512">
+													<Language>SFX</Language>
+													<AudioFile>13. Signal of Abydos.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F92A826C-58AE-4EE8-AFFF-0A5D3FB89C71}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D4605069-B1A6-45BF-92F9-36A1D7853D51}">
+													<ClipList>
+														<MusicClip Name="13_ Signal of Abydos" ID="{0FBAD3A7-C9CF-4E2B-A4AC-489516D7D633}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="116821.723356009"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="13_ Signal of Abydos" ID="{850AE5AD-91EF-4E17-A2E6-D04D02C8BDCB}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{A32F9CA1-B5C7-41CA-81F5-484961625D30}"/>
+										<MusicCue Name="Exit Cue" ID="{D5260029-B0BD-41B6-B175-DAFCFA6D617E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="116821.723356009"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{321CAED4-0153-482C-AEFA-A83E9FA3C205}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="116514.29776823"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Aoharu" ID="{08EA0774-0059-4C12-ACDE-B2C1E697AD12}" ShortID="933313713">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="166401.667982456"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Aoharu" ID="{A6D374BA-C3F2-4111-91F5-D5974AFE4B1C}" ShortID="629719176">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Aoharu" ID="{FBDFA354-6E4A-4D87-AF7D-9073E1A61BE1}" ShortID="578068155">
+													<Language>SFX</Language>
+													<AudioFile>Aoharu.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{76E2B942-2A0B-4B97-A105-0076252D6D8D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{477663F5-3386-4FF8-946B-5D35C4EF11D1}">
+													<ClipList>
+														<MusicClip Name="Aoharu" ID="{3F7D5815-21D1-44EA-B673-DF8DB4C19147}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="107997.666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Aoharu" ID="{FBDFA354-6E4A-4D87-AF7D-9073E1A61BE1}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{94A7C800-00D2-4522-8B63-01CA689FCB61}"/>
+										<MusicCue Name="Exit Cue" ID="{1BF28CAD-76FC-47AC-80EA-1EEEEC60D81E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="107997.666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{0F0CD752-432A-4FE9-8F10-5C06A07658CC}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="107713.462280702"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{69515331-261B-44E0-B249-7D67F5933EB5}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CE5FAC1A-3EAB-46AD-93C4-468172143981}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{D4CFFACA-26A4-4D7F-8774-C1B0B01594AF}" ShortID="211755155">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{5DC1E84A-D3C0-445F-8B02-E07D0741ED9E}" ShortID="425569614">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AbydosMedieval" ID="{28186F2C-3C19-4A36-BA12-571A0D7108D4}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{91CDE61B-CF0A-4B25-8F14-2C0E94FC39DC}" ShortID="755777523">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="02_ Midsummer cat" ID="{9C5BC60E-62B6-4A8E-89A1-CCE40A470A1E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{BAF3EC88-4678-4E03-A052-D222F9E92122}" ShortID="921966062">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="02_ Romantic Smile" ID="{31576BEC-FB1F-4964-854C-0BA2E20F39DF}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5924C3C8-90B6-4BCF-8E1F-7A9A8422710B}" ShortID="794341426">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="05_ Step by Step" ID="{280C298E-91BA-483F-8658-ABBC6B54CF16}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D72A25B3-0403-4931-9AF7-3EE289A265CB}" ShortID="103180011">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="08_ Daily Routine 247" ID="{4DDB4D51-1B48-463C-B94C-75D1733B6A8B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6DDF7881-A00D-4018-9223-64A930E27087}" ShortID="367373085">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Aoharu" ID="{08EA0774-0059-4C12-ACDE-B2C1E697AD12}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{233FAEB4-3424-4CAA-A5EF-B414104FCCA3}" ShortID="745619321">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="09_ Future Bossa" ID="{CAA48AC9-D284-4C59-A522-28E19A906A7D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6FD70FE0-3926-4402-BDAA-70250A8E3424}" ShortID="277673896">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="13_ Signal of Abydos" ID="{94AE6E32-4D1F-4A69-B2D7-7A35D3DD4538}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="AbydosCiv_Medieval" ID="{E37B57EC-CCBC-4B86-AD49-E4AA5874900C}" ShortID="782809068">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosMedieval" ID="{516E7D00-84F6-4086-BB79-A68902E63809}" ShortID="750071124">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="192449.295125184"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Antient" ID="{54C144BD-2BE7-4954-99E7-CCAB737EE71B}" ShortID="884798595">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Ancient" ID="{B2B77272-D8F8-42F3-9C8C-00489D54234F}" ShortID="678898497">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Ancient.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="46843525"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B0A7E911-0E46-4702-8B19-F170DF5AF057}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0CEBE378-E8F8-48BD-8C67-63827C2E2784}">
+													<ClipList>
+														<MusicClip Name="Abydos_Antient" ID="{FB0BDC7D-56DA-465F-9E11-7930BD69B828}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185197"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Ancient" ID="{B2B77272-D8F8-42F3-9C8C-00489D54234F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D2A1F13D-F952-44AE-96D8-2613EC959184}"/>
+										<MusicCue Name="Exit Cue" ID="{2668117D-5ADB-4234-81FE-63B4565B4954}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="185356.304937875"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{6BEA0729-4B47-4E1D-AB5D-46A7F34721F0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="184922.741624177"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="09_ Future Bossa" ID="{F0FD5EDC-FD08-4408-AFE0-4E691DE6B672}" ShortID="591049703">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="145324.254326292"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="09_ Future Bossa" ID="{EE25D435-B579-4412-BEB9-B86F3F39DDEB}" ShortID="390017298">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="09_ Future Bossa" ID="{EDE56787-46E3-4ABE-BB80-71238B55D837}" ShortID="170879744">
+													<Language>SFX</Language>
+													<AudioFile>09. Future Bossa.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1069728462"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7762C4F3-BE4B-4623-B194-B68FBC2F5A34}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6C0F12E1-B4D8-428F-A356-66EF273A312D}">
+													<ClipList>
+														<MusicClip Name="09_ Future Bossa" ID="{8A85DEB4-A573-41AC-9C4A-65D754973541}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="130860.702947846"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="09_ Future Bossa" ID="{EDE56787-46E3-4ABE-BB80-71238B55D837}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{DCEC7063-4EAA-460F-AA2E-28F9A18E84FC}"/>
+										<MusicCue Name="Exit Cue" ID="{3E0E67E0-B78D-44E0-9299-E9907484DF59}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="130860.702947846"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{B7B0D9F0-FAD9-4ABF-A701-F544A00C5FEA}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="130688.517812388"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="02_ Midsummer cat" ID="{7DE15337-5237-4A1C-851E-7C3386BFE5D3}" ShortID="762055491">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="210441.344969567"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="02_ Midsummer cat" ID="{5988635A-AA02-49FA-9C75-FE40BFBCF76E}" ShortID="129570441">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="02_ Midsummer cat" ID="{FF1F13D4-69A8-496C-9F56-05D4125D9B3F}" ShortID="764180394">
+													<Language>SFX</Language>
+													<AudioFile>02. Midsummer cat.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="27001946"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{15C20947-8240-41C9-BEBD-B207BE53663D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{89100BC2-F0FF-4119-B125-22F34F9C5783}">
+													<ClipList>
+														<MusicClip Name="02_ Midsummer cat" ID="{B8FCB6A5-98A9-4856-9216-DC938AAA8548}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="139559.70521542"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="02_ Midsummer cat" ID="{FF1F13D4-69A8-496C-9F56-05D4125D9B3F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{A2F2FBC6-4BFB-461A-BC91-84240243906C}"/>
+										<MusicCue Name="Exit Cue" ID="{86FC3F77-3D68-4F45-8776-51D59E51601F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="139559.70521542"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{4D252BF5-9249-4EF9-8A43-D6CB650D2B17}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="139376.074024347"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Aoharu" ID="{97CD5582-2E5E-4125-9EC9-2886E99FC038}" ShortID="935781150">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="166401.667982456"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Aoharu" ID="{D7EB652D-87A5-4CA8-9F37-F6AFDF9ED08C}" ShortID="960988906">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Aoharu" ID="{10BE00DF-5AC0-4421-9336-CA4A61024A4B}" ShortID="391104857">
+													<Language>SFX</Language>
+													<AudioFile>Aoharu.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="578068155"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{865031E1-4C6E-4633-8DB2-EF3344893828}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2B2AC8D0-4372-4C40-9F03-14FE6AA7A747}">
+													<ClipList>
+														<MusicClip Name="Aoharu" ID="{2C365943-D9A2-49F0-9982-7DA209D80691}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="107997.666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Aoharu" ID="{10BE00DF-5AC0-4421-9336-CA4A61024A4B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C9BF67FE-B35C-4302-B6D6-CA6E4CAF5D3D}"/>
+										<MusicCue Name="Exit Cue" ID="{8321BC16-E7E5-4CBC-9429-5945A9672C0F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="107997.666666667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{124808F5-2239-4474-B462-2594F1FC103C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="107713.462280702"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="08_ Daily Routine 247" ID="{24E00F38-7D40-46B8-A275-641C7BD530AC}" ShortID="867773926">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="132327.140470223"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="08_ Daily Routine 247" ID="{570EFE0C-65E6-43E7-8A35-06DC5765FB73}" ShortID="537898143">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="08_ Daily Routine 247" ID="{08738B42-F0D4-4E08-85C8-C2BF90754750}" ShortID="941541370">
+													<Language>SFX</Language>
+													<AudioFile>08. Daily Routine 247.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="762733230"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{26177555-9754-4BD0-B710-53E1263626B4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{9C645BF7-0943-4AA8-A707-5BCB3F8CCC32}">
+													<ClipList>
+														<MusicClip Name="08_ Daily Routine 247" ID="{3393E79B-B5E8-479A-A5E4-FB8F18F9EF74}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="116264.308390023"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="08_ Daily Routine 247" ID="{08738B42-F0D4-4E08-85C8-C2BF90754750}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{18C7B4EC-4DC2-4C47-A1D9-495282ADD352}"/>
+										<MusicCue Name="Exit Cue" ID="{38ABB40D-93CC-48CB-9857-C31C4FDD9B3B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="116264.308390023"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{053CE34D-A346-4E5E-8777-935478AFBBB9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="116264.308390023"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DE3E44F9-3505-4BA9-8AFB-09CEB76426FB}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{347199E1-1D0C-4E6F-8E0E-32AEF608B37E}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{CBA788C7-D0F3-4DC4-B4D4-969B4C1B74D2}" ShortID="506230546">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6513ECD1-6511-4277-9A98-E041474F4574}" ShortID="677232036">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="AbydosMedieval" ID="{516E7D00-84F6-4086-BB79-A68902E63809}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{80F6731D-192D-4436-ACD5-7B76A0AE3992}" ShortID="185048784">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="02_ Midsummer cat" ID="{7DE15337-5237-4A1C-851E-7C3386BFE5D3}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1ED7B8DC-288F-45F7-ADEE-6A7AD0F30393}" ShortID="670044488">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="08_ Daily Routine 247" ID="{24E00F38-7D40-46B8-A275-641C7BD530AC}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{851B7781-1468-4B2B-A919-53F5FB5B0C90}" ShortID="372134134">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="09_ Future Bossa" ID="{F0FD5EDC-FD08-4408-AFE0-4E691DE6B672}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{54A147DF-BDF6-4444-BFE1-4685FCC6290A}" ShortID="495056010">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Aoharu" ID="{97CD5582-2E5E-4125-9EC9-2886E99FC038}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="AbydosCiv_Industrial" ID="{A1C5291E-587E-4592-A10E-400706329FF4}" ShortID="1069559405">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosMedieval" ID="{20BB67FA-7D1D-486E-B27C-7F3C3F978BB2}" ShortID="578115061">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="192449.295125184"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Antient" ID="{A3537330-3858-4AB5-B885-7CD618802259}" ShortID="212540759">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Ancient" ID="{AE29F066-B58F-4665-91C8-A7E11A983C05}" ShortID="46843525">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Ancient.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A473A21E-0861-4511-A29C-C65C05D91A97}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7CC4CF63-1E5C-4637-848B-E205426F4149}">
+													<ClipList>
+														<MusicClip Name="Abydos_Antient" ID="{D1463622-8C92-4780-B56A-B96887E6A1A5}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185197"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Ancient" ID="{AE29F066-B58F-4665-91C8-A7E11A983C05}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{9BE60881-8A2C-4209-B3FE-226AB396E8EB}"/>
+										<MusicCue Name="Exit Cue" ID="{ED559372-2432-4BC8-B522-976FF24E762E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="185356.304937875"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{A6086DA9-B7CA-46B1-A886-0008CC2A19DF}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="184922.741624177"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="AbydosAtomic" ID="{C84F139D-C707-42A1-A621-69F12A40FE82}" ShortID="503282158">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="385613.458333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Modern" ID="{79A06B01-CB1B-4DD8-A035-90D8E175F5CA}" ShortID="653919550">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Modern" ID="{B5EFD4EB-E4C0-43EC-9507-7465CA9E160A}" ShortID="542914193">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Modern.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="571248463"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{009133DC-0B18-427D-B7F0-072080810814}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{27767FE2-6021-4B9E-A823-C30AD541E4CF}">
+													<ClipList>
+														<MusicClip Name="Abydos_Modern" ID="{FEE5822A-9E1A-416B-8BF6-B1795ECF1BEC}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="137373.832199546"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Modern" ID="{B5EFD4EB-E4C0-43EC-9507-7465CA9E160A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D3422AE6-FCE7-4E8A-8273-28D139DB0708}"/>
+										<MusicCue Name="Exit Cue" ID="{7DC0666C-BD1E-4DCD-BF5F-2C189BD1ADC9}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="137275.666464162"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{C760FDC8-1624-4160-97DE-A47E6119AA4E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="137176.434778847"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D6A8BF05-9CEB-4427-B9DC-0C50141CECDC}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{8E1F2A9A-6597-43D0-BF31-C6E7087344E9}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{11C0012F-0C2B-48FA-883A-BC6A86FAB4A1}" ShortID="898949226">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6E0888C9-EA36-41C5-94F2-A6E3D018CDD0}" ShortID="149127711">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>60</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="AbydosAtomic" ID="{C84F139D-C707-42A1-A621-69F12A40FE82}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CB3380FE-CE27-4BA0-BB87-77B5434D1083}" ShortID="775835133">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="AbydosMedieval" ID="{20BB67FA-7D1D-486E-B27C-7F3C3F978BB2}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="AbydosCiv_Atomic" ID="{57D47DAF-20F6-40F3-80FF-5E69B01A421E}" ShortID="54902868">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="AbydosAtomic" ID="{6DC41A5A-6A6C-44A9-B368-D60AC7ECFD90}" ShortID="263686201">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="385613.458333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Abydos_Modern" ID="{1C2F2374-DCE0-4455-8C4D-EAF4496644E1}" ShortID="59522020">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Abydos_Modern" ID="{F7765910-1E18-4E41-9116-9826DFF17F08}" ShortID="571248463">
+													<Language>SFX</Language>
+													<AudioFile>Abydos_Modern.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{72A52355-5D3A-42EB-A9EB-E4C46C9E3D29}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0E45BB25-4600-4DC3-A4EC-CD0C49A85CC3}">
+													<ClipList>
+														<MusicClip Name="Abydos_Modern" ID="{EB396F25-BE15-4450-B7FB-D8CB4E7797C8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="137373.832199546"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Abydos_Modern" ID="{F7765910-1E18-4E41-9116-9826DFF17F08}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D2225B3F-B647-46A1-895F-71A3EA87D7C6}"/>
+										<MusicCue Name="Exit Cue" ID="{BC3FE9B0-50FA-4AFD-9E76-0DA29F065F0E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="137275.666464162"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{7367CD2F-ECE0-4898-99FD-650AFDAAA1B4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="137176.434778847"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{0148D263-B068-4F13-AB16-DB348526E83D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{20E2539B-F675-427E-BE7F-00B9F40F39EE}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F7BD9A43-CC54-4B1F-A643-57420A3DE9A4}" ShortID="1027961078">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{D0B6CFD4-BFD5-4884-A20B-011AC98BCE28}" ShortID="540729978">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>60</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="AbydosAtomic" ID="{6DC41A5A-6A6C-44A9-B368-D60AC7ECFD90}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{7BCD5843-1617-42F8-B9CB-D64D361CD1E0}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{08DB84A6-33A7-4A89-B515-E7F69EE60623}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosCiv_Ancient" ID="{C8CFD2B1-D076-4AFB-9578-4401267FC61E}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosCiv_Industrial" ID="{A1C5291E-587E-4592-A10E-400706329FF4}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosCiv_Medieval" ID="{E37B57EC-CCBC-4B86-AD49-E4AA5874900C}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="AbydosCiv_Atomic" ID="{57D47DAF-20F6-40F3-80FF-5E69B01A421E}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

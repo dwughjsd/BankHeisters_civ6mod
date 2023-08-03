@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\BankHeisters\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!--Unique Improvements -->
+		<Row Type="IMPROVEMENT_ABYDOS_RESORT" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" Name="LOC_IMPROVEMENT_ABYDOS_RESORT_NAME" Description="LOC_IMPROVEMENT_ABYDOS_RESORT_DESCRIPTION" Icon="ICON_IMPROVEMENT_ABYDOS_RESORT" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqCivic="CIVIC_GAMES_RECREATION" YieldFromAppeal="YIELD_GOLD" TraitType="TRAIT_LEADER_IMPROVEMENT_ABYDOS_RESORT" MinimumAppeal="4" Coast="true"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" TerrainType="TERRAIN_GRASS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" TourismSource="TOURISMSOURCE_APPEAL" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" YieldType="YIELD_CULTURE" YieldChange="0"/>
+	</Improvement_YieldChanges>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" YieldChangeId="AbydosResort_CultureBranchSchool"/>
+		<Row ImprovementType="IMPROVEMENT_ABYDOS_RESORT" YieldChangeId="AbydosResort_CultureCoast"/>
+	</Improvement_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="AbydosResort_CultureBranchSchool" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ABYDOS_BRANCH_SCHOOL"/>
+		<Row ID="AbydosResort_CultureCoast" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
+	</Adjacency_YieldChanges>
+</GameData>
