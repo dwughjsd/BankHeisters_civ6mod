@@ -34,7 +34,7 @@
 
 【官方背锅】音乐播放有时会存在问题，具体表现与官方的越南和葡萄牙文明相同。
 
-由于我们近期正在进行更大的项目，所以测试就得交给大家了！我们将会在合适的时候公开这个新作品（目前它无法兼容我们的旧作）。
+文明百科内容尚未完成。
 
 [h1]需要帮助：[/h1]
 
@@ -94,7 +94,7 @@ Being the Sensei of Independent Federal Investigation Club S.C.H.A.L.E., how wil
 
 [FIRAXIS-SIDE ISSUE] Music playback can be sometimes glitchy, with the same issues of some official civilizations like Vietnam and Portugal.
 
-We are working on a larger project so the testing is somewhat inadequate and need your reports! The new project will be made public when it is appropriate (it doesn't support our previous works well for now)  
+Civilopedia articles are incomplete.
 
 [h1]Help needed:[/h1]
 
