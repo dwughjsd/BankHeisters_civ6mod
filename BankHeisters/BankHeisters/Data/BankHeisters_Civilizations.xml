@@ -367,14 +367,11 @@
 			<Value>FEATURE_OASIS</Value>
 		</Row>
 	</RequirementArguments>
-	
+
+	<!--The game won't allocate a good start place with enough oases. Fallback to (desert) floodplains.-->
 	<StartBiasFeatures>
-		<Row CivilizationType="CIVILIZATION_ABYDOS" FeatureType="FEATURE_OASIS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_ABYDOS" FeatureType="FEATURE_FLOODPLAINS" Tier="1"/>
 	</StartBiasFeatures>
-	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_ABYDOS" TerrainType="TERRAIN_DESERT" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_ABYDOS" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
-	</StartBiasTerrains>
 	
 	<CivicModifiers>
 		<Row>
