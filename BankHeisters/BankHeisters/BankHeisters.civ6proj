@@ -15,6 +15,7 @@
     <CompatibleVersions>2.0</CompatibleVersions>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Mod" title="Sistine" id="2545c7e0-035e-4a78-b925-6f6080e775ea" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="BankHeistersSettings"><File>Data/BankHeisters_Config.xml</File></UpdateDatabase><UpdateArt id="BankHeistersSettingsArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="BankHeistersColors"><File>Data/BankHeisters_Colors.xml</File></UpdateColors><UpdateText id="BankHeistersSettingsText"><File>Text/BankHeisters_ConfigText_AFallback.xml</File><File>Text/BankHeisters_ConfigText_Translations.xml</File></UpdateText><UpdateIcons id="BankHeistersSettingsIcons"><File>Data/BankHeisters_Icons.xml</File></UpdateIcons><UpdateText id="BankHeistersSettingsText_Sistine"><Criteria>BankHeistersSettings_Sistine</Criteria><File>Text/BankHeisters_ConfigText_Sistine.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
     <LocalizedTextData><![CDATA[<LocalizedText><File>Text/BankHeisters_PackageText_AFallback.xml</File><File>Text/BankHeisters_PackageText_Translations.xml</File></LocalizedText>]]></LocalizedTextData>
