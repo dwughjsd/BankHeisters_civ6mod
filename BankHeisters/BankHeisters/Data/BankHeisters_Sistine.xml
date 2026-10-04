@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<GlobalParameters>
+		<Replace Name="SHIROKO_PILLAGE_GOLD_BASE_VALUE" Value="25" />
+	</GlobalParameters>
 	<Districts>
 		<Update>
 			<Where DistrictType="DISTRICT_ABYDOS_BRANCH_SCHOOL" />
