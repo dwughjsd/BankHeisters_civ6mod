@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" />
+			<Set Bombard="90" />
+		</Update>
+	</Units>
 	<GlobalParameters>
 		<Replace Name="SHIROKO_PILLAGE_GOLD_BASE_VALUE" Value="25" />
 	</GlobalParameters>

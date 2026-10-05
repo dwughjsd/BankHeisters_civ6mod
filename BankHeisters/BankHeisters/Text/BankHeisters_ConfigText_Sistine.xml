@@ -8,7 +8,7 @@
 			<Text>阿拜多斯特色科技区域，替代学院。可在一座城市中建造多个，但建筑在城市中只能建造一个。此区域不需要人口，不提供 [ICON_GreatPerson] 伟人点数，也不属于专业化区域。位于淡水沙漠单元格时提供+1 [ICON_Food] 食物和+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]每与1个绿洲相邻，则+2 [ICON_Science] 科技值。每与2个沙漠泛滥平原相邻，则+1 [ICON_Science] 科技值。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>阿拜多斯原子时代特色单位，取代火箭炮。由“先进弹道学”科技解锁。[ICON_Bombard] 轰炸攻击力强, [ICON_Range] 射程和视野范围更远，但不会获得观测气球和无人机提供的加成。</Text>
+			<Text>阿拜多斯特色原子时代攻城单位，取代火箭炮。由“先进弹道学”科技解锁。[ICON_Bombard] 轰炸攻击力强, [ICON_Range] 射程和视野范围更远，但不会获得观测气球和无人机提供的加成。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
