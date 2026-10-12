@@ -304,4 +304,15 @@
 			<RequirementId>REQUIRES_PLOT_HAS_COMMERCIAL_HUB</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
+
+	<!--To fix an issue that AI won't build any campuses-->
+	<AiListTypes>
+		<Row ListType="AbydosDistricts"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="AbydosDistricts" LeaderType="TRAIT_CIVILIZATION_DISTRICT_ABYDOS_BRANCH_SCHOOL" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="AbydosDistricts" Item="DISTRICT_ABYDOS_BRANCH_SCHOOL" Favored="true"/>
+	</AiFavoredItems>
 </GameData>
