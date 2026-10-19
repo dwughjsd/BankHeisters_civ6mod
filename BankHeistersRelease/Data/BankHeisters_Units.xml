@@ -22,11 +22,6 @@
 		<Row Type="ABILITY_LEADER_BANK_JOB" Tag="CLASS_ANTI_CAVALRY"/>
 		<Row Type="ABILITY_LEADER_BANK_JOB" Tag="CLASS_MELEE"/>
 		<Row Type="ABILITY_LEADER_BANK_JOB" Tag="CLASS_RANGED"/>
-		<!--
-		<Row Type="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Tag="CLASS_ANTI_CAVALRY"/>
-		<Row Type="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Tag="CLASS_MELEE"/>
-		<Row Type="ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB" Tag="CLASS_RANGED"/>
-		-->
 		<Row Type="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Tag="CLASS_SIEGE_SETUP"/>
 	</TypeTags>
@@ -44,24 +39,11 @@
 		<Row UnitType="UNIT_ABYDOS_FIRE_SUPPORT_DRONE" Cost="680" Maintenance="8" BaseMoves="3" BaseSightRange="5" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="70" Bombard="105" Range="4" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_NAME" Description="LOC_UNIT_ABYDOS_FIRE_SUPPORT_DRONE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ADVANCED_BALLISTICS" TraitType="TRAIT_CIVILIZATION_UNIT_ABYDOS_FIRE_SUPPORT_DRONE"/>
 	</Units>
 
-	<UnitUpgrades>
-	</UnitUpgrades>
-
 	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_BANK_JOB</UnitAbilityType>
 			<ModifierId>UNIT_REDUCED_PILLAGE_COST</ModifierId>
 		</Row>
-		<!--
-		<Row>
-			<UnitAbilityType>ABILITY_LEADER_BANK_JOB</UnitAbilityType>
-			<ModifierId>ABILITY_LEADER_BANK_JOB_DISTRICT_COMBAT_BONUS</ModifierId>
-		</Row>
-		<Row>
-			<UnitAbilityType>ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB</UnitAbilityType>
-			<ModifierId>ABILITY_LEADER_BANK_JOB_COMMERCIAL_HUB_BONUS</ModifierId>
-		</Row>
-		-->
 	</UnitAbilityModifiers>
 
 	<Modifiers>

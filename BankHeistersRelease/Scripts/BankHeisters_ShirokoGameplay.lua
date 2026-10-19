@@ -1,6 +1,6 @@
 local GAME_SPEED = GameConfiguration.GetGameSpeedType()
 local GAME_SPEED_MULTIPLIER = GameInfo.GameSpeeds[GAME_SPEED] and GameInfo.GameSpeeds[GAME_SPEED].CostMultiplier / 100 or 1
-local SHIROKO_PILLAGE_GOLD_BASE_VALUE = 15
+local SHIROKO_PILLAGE_GOLD_BASE_VALUE = GameInfo.GlobalParameters["SHIROKO_PILLAGE_GOLD_BASE_VALUE"].Value or 15
 local GAME_COST_ESCALATION = GameInfo.GlobalParameters["GAME_COST_ESCALATION"].Value or 1000
 
 function OnPillage(iUnitPlayerID :number, iUnitID :number, eImprovement :number, eBuilding :number, eDistrict :number, iPlotIndex :number)
