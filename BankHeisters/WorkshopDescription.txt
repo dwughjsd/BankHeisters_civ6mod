@@ -32,7 +32,6 @@
 
 [b]负责任的AI使用。[/b]我们谨慎地使用生成式AI创作的内容，确保不含“数字泔水”。
 
-
 [h1]已知问题：[/h1]
 
 【官方背锅】音乐播放有时会存在问题，具体表现与官方的越南和葡萄牙文明相同。
@@ -57,7 +56,6 @@ Shimamura et al. （字面意思为“岛村和其他人”）是 UzukiShimamura
 本模组使用了来自手机游戏《蔚蓝档案》（也被叫做“碧蓝档案”，或是简称“BA”）的素材。模组作者并不拥有素材的所有权。
 
 在[url=github.com/dwughjsd]GitHub[/url]（仅英文）上可以查看卯月所有作品的工程文件。给个Star或者提出Pull Request就更好了！
-
 
 [h1]Click the thumbs up button above to support us![/h1]
 
